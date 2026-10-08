@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Python cache / tooling
+.pytest_cache/
+.mypy_cache/
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# FAISS indexes
+*.faiss
+*.index
+
+# Generated data
+data/frames/
+data/crops/
+data/embeddings/
+data/index/
+
+# Evaluation outputs
+evaluation/results/
+
+# Logs
+*.log
