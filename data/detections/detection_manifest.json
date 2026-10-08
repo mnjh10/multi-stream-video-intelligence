@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "model_name": "yolo11n.pt",
+  "ultralytics_version": "8.4",
+  "torch_version": "2.5.1+cu121",
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "conf_threshold": 0.25,
+  "batch_size": 32,
+  "total_input_frames": 7287,
+  "processed_frames": 7287,
+  "failed_frames": 0,
+  "total_detections": 68906,
+  "confidence_statistics": {
+    "min": 0.25,
+    "max": 0.9575,
+    "mean": 0.5329
+  },
+  "frames_per_camera": {
+    "cam_01": 587,
+    "cam_02": 633,
+    "cam_03": 599,
+    "cam_04": 633,
+    "cam_05": 633,
+    "cam_06": 643,
+    "cam_07": 684,
+    "cam_08": 727,
+    "cam_09": 725,
+    "cam_10": 700,
+    "cam_11": 723
+  },
+  "detections_per_camera": {
+    "cam_01": 4535,
+    "cam_02": 7296,
+    "cam_03": 6422,
+    "cam_04": 5254,
+    "cam_05": 6532,
+    "cam_06": 4908,
+    "cam_07": 6796,
+    "cam_08": 6355,
+    "cam_09": 2052,
+    "cam_10": 6332,
+    "cam_11": 12424
+  },
+  "class_distribution": {
+    "car": 52811,
+    "traffic light": 8616,
+    "truck": 3853,
+    "person": 2261,
+    "fire hydrant": 597,
+    "bus": 432,
+    "motorcycle": 158,
+    "bicycle": 130,
+    "stop sign": 35,
+    "suitcase": 7,
+    "parking meter": 2,
+    "skateboard": 2,
+    "airplane": 1,
+    "backpack": 1
+  },
+  "performance": {
+    "model_load_time_seconds": 0.064,
+    "inference_time_seconds": 296.96,
+    "frames_per_second": 24.5,
+    "avg_time_per_frame_ms": 40.75
+  },
+  "detections_file": "data/detections/detections.jsonl"
+}

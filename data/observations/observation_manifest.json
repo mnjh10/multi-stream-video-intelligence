@@ -1,0 +1,79 @@
+{
+  "stage": "Stage 6 — Object Crop Generation & Observation Record Construction",
+  "schema_version": "1.0",
+  "input_track_file": "data/tracks/tracks.jsonl",
+  "camera_count": 11,
+  "camera_ids": [
+    "cam_01",
+    "cam_02",
+    "cam_03",
+    "cam_04",
+    "cam_05",
+    "cam_06",
+    "cam_07",
+    "cam_08",
+    "cam_09",
+    "cam_10",
+    "cam_11"
+  ],
+  "input_tracked_records": 61039,
+  "output_observation_records": 61039,
+  "crop_count": 61039,
+  "frames_referenced": 7287,
+  "observations_per_camera": {
+    "cam_01": 3956,
+    "cam_02": 6063,
+    "cam_03": 5324,
+    "cam_04": 4308,
+    "cam_05": 5267,
+    "cam_06": 4357,
+    "cam_07": 6104,
+    "cam_08": 5949,
+    "cam_09": 1810,
+    "cam_10": 5948,
+    "cam_11": 11953
+  },
+  "crops_per_camera": {
+    "cam_01": 3956,
+    "cam_02": 6063,
+    "cam_03": 5324,
+    "cam_04": 4308,
+    "cam_05": 5267,
+    "cam_06": 4357,
+    "cam_07": 6104,
+    "cam_08": 5949,
+    "cam_09": 1810,
+    "cam_10": 5948,
+    "cam_11": 11953
+  },
+  "frames_referenced_per_camera": {
+    "cam_01": 587,
+    "cam_02": 633,
+    "cam_03": 599,
+    "cam_04": 633,
+    "cam_05": 633,
+    "cam_06": 643,
+    "cam_07": 684,
+    "cam_08": 727,
+    "cam_09": 725,
+    "cam_10": 700,
+    "cam_11": 723
+  },
+  "crop_configuration": {
+    "jpeg_quality": 95,
+    "format": "jpg",
+    "padding": 0
+  },
+  "validation_results": {
+    "failed_crops": 0,
+    "failed_observations": 0,
+    "verified_integrity": true
+  },
+  "performance": {
+    "runtime_seconds": 86.247,
+    "observations_per_second": 707.7,
+    "crops_per_second": 707.7
+  },
+  "observations_file": "data/observations/observations.jsonl",
+  "crops_directory": "data/crops"
+}

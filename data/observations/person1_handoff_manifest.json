@@ -1,0 +1,215 @@
+{
+  "project": "ARGUS \u2014 Conversational Multi-Camera Video Intelligence",
+  "team_id": "HNX26EPS05",
+  "stage": "Stage 8 \u2014 Person 1 Downstream Handoff & Interface Freeze",
+  "role": "Person 1 \u2014 Computer Vision & Video Intelligence Engineer",
+  "schema_version": "1.0",
+  "handoff_status": "FROZEN",
+  "dataset_summary": {
+    "dataset_name": "CityFlowV2 (AI City Challenge 2022 Track 1)",
+    "scenarios": [
+      "S01",
+      "S03"
+    ],
+    "camera_count": 11,
+    "frame_count": 7287,
+    "detection_count": 68906,
+    "track_count": 61039,
+    "observation_count": 61039,
+    "crop_count": 61039,
+    "trajectory_count": 933
+  },
+  "authoritative_artifacts": {
+    "observations_file": "data/observations/observations.jsonl",
+    "observation_manifest": "data/observations/observation_manifest.json",
+    "crop_root_directory": "data/crops",
+    "frame_root_directory": "data/frames",
+    "video_root_directory": "data/videos"
+  },
+  "observation_contract": {
+    "required_keys": [
+      "observation_id",
+      "camera_id",
+      "timestamp",
+      "frame_index",
+      "object_id",
+      "object_type",
+      "confidence",
+      "bbox",
+      "frame_path",
+      "crop_path",
+      "source_video"
+    ],
+    "prohibited_keys": [
+      "detection_id",
+      "embedding",
+      "vector",
+      "clip_embedding",
+      "dino_embedding",
+      "faiss_id",
+      "similarity_score",
+      "query",
+      "ranking_score",
+      "database_id",
+      "reid_id",
+      "global_object_id"
+    ],
+    "key_count": 11,
+    "id_format": "obs_{index:06d}",
+    "id_range": "obs_000001 to obs_061039",
+    "ordering": [
+      "camera_id",
+      "frame_index",
+      "object_id"
+    ]
+  },
+  "crop_specification": {
+    "format": "JPEG",
+    "quality": 95,
+    "color_space": "RGB",
+    "padding": 0,
+    "naming_convention": "data/crops/<camera_id>/<observation_id>.jpg",
+    "bounding_box_derived": true
+  },
+  "contracts": {
+    "path_convention": "project-relative POSIX forward slashes (e.g. data/...)",
+    "timestamp_definition": "source-video elapsed playback seconds (frame_index / source_video_fps)",
+    "object_id_scope": "strictly camera-local independent namespace (obj_camXX_NNNNNN)",
+    "cross_camera_reid": "none performed by Person 1; downstream responsibility",
+    "embeddings": "none produced by Person 1; downstream responsibility (Person 2)"
+  },
+  "cameras": [
+    {
+      "camera_id": "cam_01",
+      "sampled_frames": 587,
+      "detections": 4535,
+      "tracked_records": 3956,
+      "observations": 3956,
+      "crops": 3956,
+      "unique_trajectories": 93,
+      "source_video": "data/videos/cam_01/vdo.avi",
+      "frame_directory": "data/frames/cam_01",
+      "crop_directory": "data/crops/cam_01"
+    },
+    {
+      "camera_id": "cam_02",
+      "sampled_frames": 633,
+      "detections": 7296,
+      "tracked_records": 6063,
+      "observations": 6063,
+      "crops": 6063,
+      "unique_trajectories": 106,
+      "source_video": "data/videos/cam_02/vdo.avi",
+      "frame_directory": "data/frames/cam_02",
+      "crop_directory": "data/crops/cam_02"
+    },
+    {
+      "camera_id": "cam_03",
+      "sampled_frames": 599,
+      "detections": 6422,
+      "tracked_records": 5324,
+      "observations": 5324,
+      "crops": 5324,
+      "unique_trajectories": 143,
+      "source_video": "data/videos/cam_03/vdo.avi",
+      "frame_directory": "data/frames/cam_03",
+      "crop_directory": "data/crops/cam_03"
+    },
+    {
+      "camera_id": "cam_04",
+      "sampled_frames": 633,
+      "detections": 5254,
+      "tracked_records": 4308,
+      "observations": 4308,
+      "crops": 4308,
+      "unique_trajectories": 143,
+      "source_video": "data/videos/cam_04/vdo.avi",
+      "frame_directory": "data/frames/cam_04",
+      "crop_directory": "data/crops/cam_04"
+    },
+    {
+      "camera_id": "cam_05",
+      "sampled_frames": 633,
+      "detections": 6532,
+      "tracked_records": 5267,
+      "observations": 5267,
+      "crops": 5267,
+      "unique_trajectories": 119,
+      "source_video": "data/videos/cam_05/vdo.avi",
+      "frame_directory": "data/frames/cam_05",
+      "crop_directory": "data/crops/cam_05"
+    },
+    {
+      "camera_id": "cam_06",
+      "sampled_frames": 643,
+      "detections": 4908,
+      "tracked_records": 4357,
+      "observations": 4357,
+      "crops": 4357,
+      "unique_trajectories": 58,
+      "source_video": "data/videos/cam_06/vdo.avi",
+      "frame_directory": "data/frames/cam_06",
+      "crop_directory": "data/crops/cam_06"
+    },
+    {
+      "camera_id": "cam_07",
+      "sampled_frames": 684,
+      "detections": 6796,
+      "tracked_records": 6104,
+      "observations": 6104,
+      "crops": 6104,
+      "unique_trajectories": 71,
+      "source_video": "data/videos/cam_07/vdo.avi",
+      "frame_directory": "data/frames/cam_07",
+      "crop_directory": "data/crops/cam_07"
+    },
+    {
+      "camera_id": "cam_08",
+      "sampled_frames": 727,
+      "detections": 6355,
+      "tracked_records": 5949,
+      "observations": 5949,
+      "crops": 5949,
+      "unique_trajectories": 29,
+      "source_video": "data/videos/cam_08/vdo.avi",
+      "frame_directory": "data/frames/cam_08",
+      "crop_directory": "data/crops/cam_08"
+    },
+    {
+      "camera_id": "cam_09",
+      "sampled_frames": 725,
+      "detections": 2052,
+      "tracked_records": 1810,
+      "observations": 1810,
+      "crops": 1810,
+      "unique_trajectories": 31,
+      "source_video": "data/videos/cam_09/vdo.avi",
+      "frame_directory": "data/frames/cam_09",
+      "crop_directory": "data/crops/cam_09"
+    },
+    {
+      "camera_id": "cam_10",
+      "sampled_frames": 700,
+      "detections": 6332,
+      "tracked_records": 5948,
+      "observations": 5948,
+      "crops": 5948,
+      "unique_trajectories": 56,
+      "source_video": "data/videos/cam_10/vdo.avi",
+      "frame_directory": "data/frames/cam_10",
+      "crop_directory": "data/crops/cam_10"
+    },
+    {
+      "camera_id": "cam_11",
+      "sampled_frames": 723,
+      "detections": 12424,
+      "tracked_records": 11953,
+      "observations": 11953,
+      "crops": 11953,
+      "unique_trajectories": 84,
+      "source_video": "data/videos/cam_11/vdo.avi",
+      "frame_directory": "data/frames/cam_11",
+      "crop_directory": "data/crops/cam_11"
+    }
+  ]
+}
