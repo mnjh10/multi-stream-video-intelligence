@@ -1,0 +1,31 @@
+# ==============================================================================
+# ARGUS — Conversational Multi-Camera Video Intelligence
+# Core Dependencies for Computer Vision, Semantic Retrieval, and Backend Services
+# ==============================================================================
+
+# 1. Computer Vision & Video Processing (Person 1)
+torch>=2.5.0
+torchvision>=0.20.0
+ultralytics>=8.3.0
+opencv-python>=4.10.0
+Pillow>=10.0.0
+numpy>=1.26.0
+
+# 2. Multimodal Retrieval & Vector Indexing (Person 2)
+open-clip-torch>=3.3.0
+faiss-cpu>=1.9.0
+
+# 3. Backend, API & Persistent Semantic Memory (Person 3)
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+sqlalchemy>=2.0.30
+alembic>=1.14.0
+psycopg2-binary>=2.9.10
+python-dotenv>=1.0.0
+python-multipart>=0.0.20
+httpx>=0.28.0
+
+# 4. Testing & Code Quality
+pytest>=8.0.0
