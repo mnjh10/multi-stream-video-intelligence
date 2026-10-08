@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "video_directory": "data/videos",
+  "total_cameras": 11,
+  "valid_cameras": 11,
+  "invalid_cameras": 0,
+  "cameras": [
+    {
+      "camera_id": "cam_01",
+      "source_video": "data/videos/cam_01/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 1955,
+      "duration_seconds": 195.5,
+      "width": 1920,
+      "height": 1080,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 141089430,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_01/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_02",
+      "source_video": "data/videos/cam_02/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 2110,
+      "duration_seconds": 211.0,
+      "width": 1920,
+      "height": 1080,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 193432818,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_02/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_03",
+      "source_video": "data/videos/cam_03/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 1996,
+      "duration_seconds": 199.6,
+      "width": 1920,
+      "height": 1080,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 158467308,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_03/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_04",
+      "source_video": "data/videos/cam_04/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 2110,
+      "duration_seconds": 211.0,
+      "width": 1920,
+      "height": 1080,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 150913934,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_04/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_05",
+      "source_video": "data/videos/cam_05/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 2110,
+      "duration_seconds": 211.0,
+      "width": 1280,
+      "height": 960,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 57470618,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_05/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_06",
+      "source_video": "data/videos/cam_06/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 2141,
+      "duration_seconds": 214.1,
+      "width": 1920,
+      "height": 1080,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 144241688,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_06/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_07",
+      "source_video": "data/videos/cam_07/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 2279,
+      "duration_seconds": 227.9,
+      "width": 2560,
+      "height": 1920,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 153120974,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_07/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_08",
+      "source_video": "data/videos/cam_08/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 2422,
+      "duration_seconds": 242.2,
+      "width": 2560,
+      "height": 1920,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 320835620,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_08/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_09",
+      "source_video": "data/videos/cam_09/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 2415,
+      "duration_seconds": 241.5,
+      "width": 2560,
+      "height": 1920,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 268631390,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_09/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_10",
+      "source_video": "data/videos/cam_10/vdo.avi",
+      "fps": 10.0,
+      "frame_count": 2332,
+      "duration_seconds": 233.2,
+      "width": 1920,
+      "height": 1080,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 157653432,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_10/vdo.avi"
+      ]
+    },
+    {
+      "camera_id": "cam_11",
+      "source_video": "data/videos/cam_11/vdo.avi",
+      "fps": 8.0,
+      "frame_count": 1928,
+      "duration_seconds": 241.0,
+      "width": 1920,
+      "height": 1080,
+      "codec": "msmpeg4v2",
+      "container": "avi",
+      "file_size_bytes": 151592164,
+      "readable": true,
+      "duration_derived": true,
+      "validation_status": "valid",
+      "error_message": null,
+      "candidate_files": [
+        "data/videos/cam_11/vdo.avi"
+      ]
+    }
+  ]
+}

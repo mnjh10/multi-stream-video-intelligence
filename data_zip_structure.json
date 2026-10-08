@@ -1,0 +1,6029 @@
+{
+  "scenarios": {
+    "test/S06": [
+      {
+        "camera": "c045",
+        "file": "vdo.avi",
+        "size_mb": 103.91,
+        "offset": 3473533,
+        "comp_size": 108397905
+      },
+      {
+        "camera": "c041",
+        "file": "vdo.avi",
+        "size_mb": 171.47,
+        "offset": 114233654,
+        "comp_size": 178911539
+      },
+      {
+        "camera": "c042",
+        "file": "vdo.avi",
+        "size_mb": 85.74,
+        "offset": 297637969,
+        "comp_size": 89295588
+      },
+      {
+        "camera": "c043",
+        "file": "vdo.avi",
+        "size_mb": 99.2,
+        "offset": 391059181,
+        "comp_size": 103245647
+      },
+      {
+        "camera": "c044",
+        "file": "vdo.avi",
+        "size_mb": 103.74,
+        "offset": 499412105,
+        "comp_size": 108225393
+      },
+      {
+        "camera": "c046",
+        "file": "vdo.avi",
+        "size_mb": 62.31,
+        "offset": 609372863,
+        "comp_size": 64921276
+      }
+    ],
+    "train/S01": [
+      {
+        "camera": "c005",
+        "file": "vdo.avi",
+        "size_mb": 54.81,
+        "offset": 675781493,
+        "comp_size": 57118593
+      },
+      {
+        "camera": "c004",
+        "file": "vdo.avi",
+        "size_mb": 143.92,
+        "offset": 737566284,
+        "comp_size": 150084095
+      },
+      {
+        "camera": "c003",
+        "file": "vdo.avi",
+        "size_mb": 151.13,
+        "offset": 892112290,
+        "comp_size": 158015631
+      },
+      {
+        "camera": "c002",
+        "file": "vdo.avi",
+        "size_mb": 184.47,
+        "offset": 1055967681,
+        "comp_size": 192229112
+      },
+      {
+        "camera": "c001",
+        "file": "vdo.avi",
+        "size_mb": 134.55,
+        "offset": 1251556331,
+        "comp_size": 139801250
+      }
+    ],
+    "train/S04": [
+      {
+        "camera": "c018",
+        "file": "vdo.avi",
+        "size_mb": 52.4,
+        "offset": 1396047780,
+        "comp_size": 53939969
+      },
+      {
+        "camera": "c036",
+        "file": "vdo.avi",
+        "size_mb": 54.54,
+        "offset": 1450504453,
+        "comp_size": 56940035
+      },
+      {
+        "camera": "c022",
+        "file": "vdo.avi",
+        "size_mb": 35.34,
+        "offset": 1509309843,
+        "comp_size": 36908093
+      },
+      {
+        "camera": "c037",
+        "file": "vdo.avi",
+        "size_mb": 34.77,
+        "offset": 1546602127,
+        "comp_size": 36062805
+      },
+      {
+        "camera": "c040",
+        "file": "vdo.avi",
+        "size_mb": 31.87,
+        "offset": 1583317838,
+        "comp_size": 32876151
+      },
+      {
+        "camera": "c027",
+        "file": "vdo.avi",
+        "size_mb": 56.55,
+        "offset": 1617434625,
+        "comp_size": 59052088
+      },
+      {
+        "camera": "c038",
+        "file": "vdo.avi",
+        "size_mb": 87.42,
+        "offset": 1678960319,
+        "comp_size": 90644448
+      },
+      {
+        "camera": "c028",
+        "file": "vdo.avi",
+        "size_mb": 20.29,
+        "offset": 1770607224,
+        "comp_size": 21132814
+      },
+      {
+        "camera": "c019",
+        "file": "vdo.avi",
+        "size_mb": 56.96,
+        "offset": 1792245336,
+        "comp_size": 58952417
+      },
+      {
+        "camera": "c030",
+        "file": "vdo.avi",
+        "size_mb": 44.59,
+        "offset": 1851553526,
+        "comp_size": 46113615
+      },
+      {
+        "camera": "c025",
+        "file": "vdo.avi",
+        "size_mb": 69.27,
+        "offset": 1899642511,
+        "comp_size": 72061778
+      },
+      {
+        "camera": "c032",
+        "file": "vdo.avi",
+        "size_mb": 41.78,
+        "offset": 1972970711,
+        "comp_size": 43222363
+      },
+      {
+        "camera": "c034",
+        "file": "vdo.avi",
+        "size_mb": 53.42,
+        "offset": 2018111134,
+        "comp_size": 55708054
+      },
+      {
+        "camera": "c035",
+        "file": "vdo.avi",
+        "size_mb": 21.16,
+        "offset": 2076674072,
+        "comp_size": 22076628
+      },
+      {
+        "camera": "c016",
+        "file": "vdo.avi",
+        "size_mb": 24.13,
+        "offset": 2099140332,
+        "comp_size": 25140694
+      },
+      {
+        "camera": "c033",
+        "file": "vdo.avi",
+        "size_mb": 42.9,
+        "offset": 2125090536,
+        "comp_size": 44853359
+      },
+      {
+        "camera": "c026",
+        "file": "vdo.avi",
+        "size_mb": 102.98,
+        "offset": 2171867728,
+        "comp_size": 107453753
+      },
+      {
+        "camera": "c017",
+        "file": "vdo.avi",
+        "size_mb": 21.71,
+        "offset": 2281166700,
+        "comp_size": 22542469
+      },
+      {
+        "camera": "c023",
+        "file": "vdo.avi",
+        "size_mb": 89.83,
+        "offset": 2304259058,
+        "comp_size": 93631559
+      },
+      {
+        "camera": "c021",
+        "file": "vdo.avi",
+        "size_mb": 24.26,
+        "offset": 2399062036,
+        "comp_size": 25247020
+      },
+      {
+        "camera": "c024",
+        "file": "vdo.avi",
+        "size_mb": 89.58,
+        "offset": 2425171850,
+        "comp_size": 93469126
+      },
+      {
+        "camera": "c031",
+        "file": "vdo.avi",
+        "size_mb": 54.38,
+        "offset": 2518695890,
+        "comp_size": 56030481
+      },
+      {
+        "camera": "c020",
+        "file": "vdo.avi",
+        "size_mb": 58.54,
+        "offset": 2580318535,
+        "comp_size": 60432974
+      },
+      {
+        "camera": "c039",
+        "file": "vdo.avi",
+        "size_mb": 114.36,
+        "offset": 2641760726,
+        "comp_size": 118330896
+      },
+      {
+        "camera": "c029",
+        "file": "vdo.avi",
+        "size_mb": 30.49,
+        "offset": 2760626995,
+        "comp_size": 31869106
+      }
+    ],
+    "train/S03": [
+      {
+        "camera": "c012",
+        "file": "vdo.avi",
+        "size_mb": 305.97,
+        "offset": 2794510487,
+        "comp_size": 315738647
+      },
+      {
+        "camera": "c015",
+        "file": "vdo.avi",
+        "size_mb": 144.57,
+        "offset": 3113410982,
+        "comp_size": 149541463
+      },
+      {
+        "camera": "c010",
+        "file": "vdo.avi",
+        "size_mb": 137.56,
+        "offset": 3265507309,
+        "comp_size": 143611774
+      },
+      {
+        "camera": "c013",
+        "file": "vdo.avi",
+        "size_mb": 256.19,
+        "offset": 3412949541,
+        "comp_size": 264845850
+      },
+      {
+        "camera": "c011",
+        "file": "vdo.avi",
+        "size_mb": 146.03,
+        "offset": 3678758710,
+        "comp_size": 150602592
+      },
+      {
+        "camera": "c014",
+        "file": "vdo.avi",
+        "size_mb": 150.35,
+        "offset": 3839529372,
+        "comp_size": 157083540
+      }
+    ],
+    "validation/S02": [
+      {
+        "camera": "c007",
+        "file": "vdo.avi",
+        "size_mb": 256.1,
+        "offset": 3998429766,
+        "comp_size": 267150232
+      },
+      {
+        "camera": "c006",
+        "file": "vdo.avi",
+        "size_mb": 292.29,
+        "offset": 4267657508,
+        "comp_size": 305708479
+      },
+      {
+        "camera": "c008",
+        "file": "vdo.avi",
+        "size_mb": 222.26,
+        "offset": 4585513453,
+        "comp_size": 232136349
+      },
+      {
+        "camera": "c009",
+        "file": "vdo.avi",
+        "size_mb": 205.09,
+        "offset": 4824118834,
+        "comp_size": 214541803
+      }
+    ],
+    "validation/S05": [
+      {
+        "camera": "c018",
+        "file": "vdo.avi",
+        "size_mb": 593.65,
+        "offset": 5047799726,
+        "comp_size": 614887545
+      },
+      {
+        "camera": "c036",
+        "file": "vdo.avi",
+        "size_mb": 429.12,
+        "offset": 5664086247,
+        "comp_size": 449198201
+      },
+      {
+        "camera": "c022",
+        "file": "vdo.avi",
+        "size_mb": 611.13,
+        "offset": 6136163166,
+        "comp_size": 639061723
+      },
+      {
+        "camera": "c027",
+        "file": "vdo.avi",
+        "size_mb": 600.4,
+        "offset": 6789733540,
+        "comp_size": 627967757
+      },
+      {
+        "camera": "c028",
+        "file": "vdo.avi",
+        "size_mb": 434.65,
+        "offset": 7449263957,
+        "comp_size": 452437433
+      },
+      {
+        "camera": "c019",
+        "file": "vdo.avi",
+        "size_mb": 482.02,
+        "offset": 7932745268,
+        "comp_size": 500774942
+      },
+      {
+        "camera": "c025",
+        "file": "vdo.avi",
+        "size_mb": 546.73,
+        "offset": 8434260957,
+        "comp_size": 568723786
+      },
+      {
+        "camera": "c034",
+        "file": "vdo.avi",
+        "size_mb": 679.38,
+        "offset": 9021442033,
+        "comp_size": 708403012
+      },
+      {
+        "camera": "c035",
+        "file": "vdo.avi",
+        "size_mb": 346.62,
+        "offset": 9756370711,
+        "comp_size": 362345534
+      },
+      {
+        "camera": "c016",
+        "file": "vdo.avi",
+        "size_mb": 425.97,
+        "offset": 10127659119,
+        "comp_size": 444750343
+      },
+      {
+        "camera": "c033",
+        "file": "vdo.avi",
+        "size_mb": 553.65,
+        "offset": 10579929091,
+        "comp_size": 579014512
+      },
+      {
+        "camera": "c026",
+        "file": "vdo.avi",
+        "size_mb": 675.28,
+        "offset": 11182613466,
+        "comp_size": 705890414
+      },
+      {
+        "camera": "c017",
+        "file": "vdo.avi",
+        "size_mb": 552.11,
+        "offset": 11913419879,
+        "comp_size": 573969743
+      },
+      {
+        "camera": "c010",
+        "file": "vdo.avi",
+        "size_mb": 473.07,
+        "offset": 12496829625,
+        "comp_size": 493796056
+      },
+      {
+        "camera": "c023",
+        "file": "vdo.avi",
+        "size_mb": 1012.6,
+        "offset": 13000212969,
+        "comp_size": 1055080998
+      },
+      {
+        "camera": "c021",
+        "file": "vdo.avi",
+        "size_mb": 435.33,
+        "offset": 14066887983,
+        "comp_size": 454377258
+      },
+      {
+        "camera": "c024",
+        "file": "vdo.avi",
+        "size_mb": 853.78,
+        "offset": 14538796590,
+        "comp_size": 892657287
+      },
+      {
+        "camera": "c020",
+        "file": "vdo.avi",
+        "size_mb": 602.03,
+        "offset": 15436718070,
+        "comp_size": 626118214
+      },
+      {
+        "camera": "c029",
+        "file": "vdo.avi",
+        "size_mb": 768.88,
+        "offset": 16080052286,
+        "comp_size": 801848790
+      }
+    ]
+  },
+  "text_files": [
+    {
+      "name": "cam_framenum/S04.txt",
+      "size": 250,
+      "comp_size": 114,
+      "offset": 75
+    },
+    {
+      "name": "cam_framenum/S05.txt",
+      "size": 209,
+      "comp_size": 103,
+      "offset": 287
+    },
+    {
+      "name": "cam_framenum/S02.txt",
+      "size": 44,
+      "comp_size": 33,
+      "offset": 488
+    },
+    {
+      "name": "cam_framenum/S01.txt",
+      "size": 55,
+      "comp_size": 36,
+      "offset": 619
+    },
+    {
+      "name": "cam_framenum/S03.txt",
+      "size": 66,
+      "comp_size": 51,
+      "offset": 753
+    },
+    {
+      "name": "cam_framenum/S06.txt",
+      "size": 66,
+      "comp_size": 29,
+      "offset": 902
+    },
+    {
+      "name": "cam_timestamp/S04.txt",
+      "size": 333,
+      "comp_size": 154,
+      "offset": 1151863
+    },
+    {
+      "name": "cam_timestamp/S05.txt",
+      "size": 152,
+      "comp_size": 59,
+      "offset": 1152116
+    },
+    {
+      "name": "cam_timestamp/S02.txt",
+      "size": 43,
+      "comp_size": 35,
+      "offset": 1152274
+    },
+    {
+      "name": "cam_timestamp/S01.txt",
+      "size": 56,
+      "comp_size": 44,
+      "offset": 1152408
+    },
+    {
+      "name": "cam_timestamp/S03.txt",
+      "size": 67,
+      "comp_size": 51,
+      "offset": 1152551
+    },
+    {
+      "name": "cam_timestamp/S06.txt",
+      "size": 48,
+      "comp_size": 26,
+      "offset": 1152701
+    },
+    {
+      "name": "eval/ground_truth_train.txt",
+      "size": 2224153,
+      "comp_size": 527163,
+      "offset": 1276158
+    },
+    {
+      "name": "eval/ground_truth_validation.txt",
+      "size": 6428581,
+      "comp_size": 1661802,
+      "offset": 1808212
+    },
+    {
+      "name": "eval/requirements.txt",
+      "size": 108,
+      "comp_size": 90,
+      "offset": 3470124
+    },
+    {
+      "name": "list_cam.txt",
+      "size": 1279,
+      "comp_size": 201,
+      "offset": 3470313
+    },
+    {
+      "name": "ReadMe.txt",
+      "size": 6784,
+      "comp_size": 2627,
+      "offset": 3470604
+    },
+    {
+      "name": "test/S06/c045/det/det_mask_rcnn.txt",
+      "size": 1420516,
+      "comp_size": 468100,
+      "offset": 111871617
+    },
+    {
+      "name": "test/S06/c045/segm/segm_mask_rcnn.txt",
+      "size": 6955887,
+      "comp_size": 1737131,
+      "offset": 112347362
+    },
+    {
+      "name": "test/S06/c045/calibration.txt",
+      "size": 228,
+      "comp_size": 158,
+      "offset": 114084608
+    },
+    {
+      "name": "test/S06/c045/mtsc/mtsc_tnt_mask_rcnn.txt",
+      "size": 792120,
+      "comp_size": 148505,
+      "offset": 114084954
+    },
+    {
+      "name": "test/S06/c041/det/det_mask_rcnn.txt",
+      "size": 2122442,
+      "comp_size": 720709,
+      "offset": 293145372
+    },
+    {
+      "name": "test/S06/c041/segm/segm_mask_rcnn.txt",
+      "size": 12622858,
+      "comp_size": 3568844,
+      "offset": 293875742
+    },
+    {
+      "name": "test/S06/c041/calibration.txt",
+      "size": 528,
+      "comp_size": 235,
+      "offset": 297444701
+    },
+    {
+      "name": "test/S06/c041/mtsc/mtsc_tnt_mask_rcnn.txt",
+      "size": 1005625,
+      "comp_size": 192650,
+      "offset": 297445124
+    },
+    {
+      "name": "test/S06/c042/det/det_mask_rcnn.txt",
+      "size": 2109672,
+      "comp_size": 714028,
+      "offset": 386933736
+    },
+    {
+      "name": "test/S06/c042/segm/segm_mask_rcnn.txt",
+      "size": 10914802,
+      "comp_size": 3224229,
+      "offset": 387657205
+    },
+    {
+      "name": "test/S06/c042/calibration.txt",
+      "size": 531,
+      "comp_size": 241,
+      "offset": 390881549
+    },
+    {
+      "name": "test/S06/c042/mtsc/mtsc_tnt_mask_rcnn.txt",
+      "size": 982870,
+      "comp_size": 177008,
+      "offset": 390881978
+    },
+    {
+      "name": "test/S06/c043/det/det_mask_rcnn.txt",
+      "size": 2823928,
+      "comp_size": 944926,
+      "offset": 494305007
+    },
+    {
+      "name": "test/S06/c043/segm/segm_mask_rcnn.txt",
+      "size": 15254937,
+      "comp_size": 3915770,
+      "offset": 495256610
+    },
+    {
+      "name": "test/S06/c043/calibration.txt",
+      "size": 233,
+      "comp_size": 162,
+      "offset": 499172495
+    },
+    {
+      "name": "test/S06/c043/mtsc/mtsc_tnt_mask_rcnn.txt",
+      "size": 1435455,
+      "comp_size": 239065,
+      "offset": 499172845
+    },
+    {
+      "name": "test/S06/c044/det/det_mask_rcnn.txt",
+      "size": 1026296,
+      "comp_size": 350775,
+      "offset": 607637677
+    },
+    {
+      "name": "test/S06/c044/segm/segm_mask_rcnn.txt",
+      "size": 4797154,
+      "comp_size": 1272634,
+      "offset": 608001002
+    },
+    {
+      "name": "test/S06/c044/calibration.txt",
+      "size": 526,
+      "comp_size": 236,
+      "offset": 609273751
+    },
+    {
+      "name": "test/S06/c044/mtsc/mtsc_tnt_mask_rcnn.txt",
+      "size": 492725,
+      "comp_size": 98493,
+      "offset": 609274175
+    },
+    {
+      "name": "test/S06/c046/det/det_mask_rcnn.txt",
+      "size": 900046,
+      "comp_size": 300460,
+      "offset": 674294318
+    },
+    {
+      "name": "test/S06/c046/segm/segm_mask_rcnn.txt",
+      "size": 4314932,
+      "comp_size": 1094377,
+      "offset": 674600294
+    },
+    {
+      "name": "test/S06/c046/calibration.txt",
+      "size": 231,
+      "comp_size": 161,
+      "offset": 675694786
+    },
+    {
+      "name": "test/S06/c046/mtsc/mtsc_tnt_mask_rcnn.txt",
+      "size": 443260,
+      "comp_size": 86022,
+      "offset": 675695135
+    },
+    {
+      "name": "train/S01/c005/det/det_yolo3.txt",
+      "size": 931608,
+      "comp_size": 312772,
+      "offset": 732900267
+    },
+    {
+      "name": "train/S01/c005/det/det_ssd512.txt",
+      "size": 778883,
+      "comp_size": 259280,
+      "offset": 733213149
+    },
+    {
+      "name": "train/S01/c005/det/det_mask_rcnn.txt",
+      "size": 1268892,
+      "comp_size": 421971,
+      "offset": 733472540
+    },
+    {
+      "name": "train/S01/c005/segm/segm_mask_rcnn.txt",
+      "size": 5846020,
+      "comp_size": 1539347,
+      "offset": 733905337
+    },
+    {
+      "name": "train/S01/c005/calibration.txt",
+      "size": 530,
+      "comp_size": 240,
+      "offset": 735444800
+    },
+    {
+      "name": "train/S01/c005/gt/gt.txt",
+      "size": 413620,
+      "comp_size": 74886,
+      "offset": 735445228
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 867593,
+      "comp_size": 283703,
+      "offset": 735520298
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_tc_ssd512.txt",
+      "size": 577897,
+      "comp_size": 159365,
+      "offset": 735804123
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 787290,
+      "comp_size": 231428,
+      "offset": 735963604
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 634264,
+      "comp_size": 181500,
+      "offset": 736195153
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 955357,
+      "comp_size": 275621,
+      "offset": 736376775
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 781274,
+      "comp_size": 221867,
+      "offset": 736652521
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_moana_yolo3.txt",
+      "size": 864142,
+      "comp_size": 280251,
+      "offset": 736874507
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_moana_ssd512.txt",
+      "size": 666145,
+      "comp_size": 214026,
+      "offset": 737154876
+    },
+    {
+      "name": "train/S01/c005/mtsc/mtsc_tc_yolo3.txt",
+      "size": 683692,
+      "comp_size": 197071,
+      "offset": 737369021
+    },
+    {
+      "name": "train/S01/c004/det/det_yolo3.txt",
+      "size": 663854,
+      "comp_size": 231658,
+      "offset": 887650560
+    },
+    {
+      "name": "train/S01/c004/det/det_ssd512.txt",
+      "size": 597031,
+      "comp_size": 206745,
+      "offset": 887882328
+    },
+    {
+      "name": "train/S01/c004/det/det_mask_rcnn.txt",
+      "size": 1223971,
+      "comp_size": 420108,
+      "offset": 888089184
+    },
+    {
+      "name": "train/S01/c004/segm/segm_mask_rcnn.txt",
+      "size": 6728792,
+      "comp_size": 1910122,
+      "offset": 888519215
+    },
+    {
+      "name": "train/S01/c004/calibration.txt",
+      "size": 228,
+      "comp_size": 159,
+      "offset": 890429453
+    },
+    {
+      "name": "train/S01/c004/gt/gt.txt",
+      "size": 211639,
+      "comp_size": 47403,
+      "offset": 890429800
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 670980,
+      "comp_size": 226835,
+      "offset": 890477387
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_tc_ssd512.txt",
+      "size": 389166,
+      "comp_size": 120403,
+      "offset": 890704344
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 564967,
+      "comp_size": 173739,
+      "offset": 890824863
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 413184,
+      "comp_size": 129092,
+      "offset": 890998723
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 832027,
+      "comp_size": 253036,
+      "offset": 891127937
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 660943,
+      "comp_size": 201663,
+      "offset": 891381098
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_moana_yolo3.txt",
+      "size": 628625,
+      "comp_size": 211304,
+      "offset": 891582880
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_moana_ssd512.txt",
+      "size": 434129,
+      "comp_size": 148829,
+      "offset": 891794302
+    },
+    {
+      "name": "train/S01/c004/mtsc/mtsc_tc_yolo3.txt",
+      "size": 558427,
+      "comp_size": 168848,
+      "offset": 891943250
+    },
+    {
+      "name": "train/S01/c003/det/det_yolo3.txt",
+      "size": 819832,
+      "comp_size": 286155,
+      "offset": 1050128102
+    },
+    {
+      "name": "train/S01/c003/det/det_ssd512.txt",
+      "size": 886699,
+      "comp_size": 307710,
+      "offset": 1050414367
+    },
+    {
+      "name": "train/S01/c003/det/det_mask_rcnn.txt",
+      "size": 1593071,
+      "comp_size": 544672,
+      "offset": 1050722188
+    },
+    {
+      "name": "train/S01/c003/segm/segm_mask_rcnn.txt",
+      "size": 8574087,
+      "comp_size": 2430215,
+      "offset": 1051274755
+    },
+    {
+      "name": "train/S01/c003/calibration.txt",
+      "size": 228,
+      "comp_size": 159,
+      "offset": 1053705086
+    },
+    {
+      "name": "train/S01/c003/gt/gt.txt",
+      "size": 234321,
+      "comp_size": 48894,
+      "offset": 1053705433
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1031551,
+      "comp_size": 343731,
+      "offset": 1053754511
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_tc_ssd512.txt",
+      "size": 605348,
+      "comp_size": 171918,
+      "offset": 1054098364
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 693772,
+      "comp_size": 212572,
+      "offset": 1054270398
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 650567,
+      "comp_size": 198406,
+      "offset": 1054483091
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 1142028,
+      "comp_size": 341421,
+      "offset": 1054681619
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 896188,
+      "comp_size": 258137,
+      "offset": 1055023165
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_moana_yolo3.txt",
+      "size": 751517,
+      "comp_size": 253175,
+      "offset": 1055281421
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_moana_ssd512.txt",
+      "size": 684240,
+      "comp_size": 231355,
+      "offset": 1055534714
+    },
+    {
+      "name": "train/S01/c003/mtsc/mtsc_tc_yolo3.txt",
+      "size": 666112,
+      "comp_size": 201301,
+      "offset": 1055766188
+    },
+    {
+      "name": "train/S01/c002/det/det_yolo3.txt",
+      "size": 520854,
+      "comp_size": 180791,
+      "offset": 1248196974
+    },
+    {
+      "name": "train/S01/c002/det/det_ssd512.txt",
+      "size": 526208,
+      "comp_size": 182331,
+      "offset": 1248377875
+    },
+    {
+      "name": "train/S01/c002/det/det_mask_rcnn.txt",
+      "size": 724841,
+      "comp_size": 248255,
+      "offset": 1248560317
+    },
+    {
+      "name": "train/S01/c002/segm/segm_mask_rcnn.txt",
+      "size": 5339621,
+      "comp_size": 1430900,
+      "offset": 1248821103
+    },
+    {
+      "name": "train/S01/c002/calibration.txt",
+      "size": 227,
+      "comp_size": 159,
+      "offset": 1250252119
+    },
+    {
+      "name": "train/S01/c002/gt/gt.txt",
+      "size": 221236,
+      "comp_size": 46367,
+      "offset": 1250252466
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 482018,
+      "comp_size": 163540,
+      "offset": 1250299017
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_tc_ssd512.txt",
+      "size": 382803,
+      "comp_size": 115567,
+      "offset": 1250462679
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 436222,
+      "comp_size": 135276,
+      "offset": 1250578362
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 408861,
+      "comp_size": 126373,
+      "offset": 1250713759
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 503806,
+      "comp_size": 154491,
+      "offset": 1250840254
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 446672,
+      "comp_size": 132515,
+      "offset": 1250994870
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_moana_yolo3.txt",
+      "size": 462250,
+      "comp_size": 157442,
+      "offset": 1251127504
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_moana_ssd512.txt",
+      "size": 414186,
+      "comp_size": 141519,
+      "offset": 1251285064
+    },
+    {
+      "name": "train/S01/c002/mtsc/mtsc_tc_yolo3.txt",
+      "size": 423320,
+      "comp_size": 129437,
+      "offset": 1251426702
+    },
+    {
+      "name": "train/S01/c001/det/det_yolo3.txt",
+      "size": 709059,
+      "comp_size": 240836,
+      "offset": 1391357762
+    },
+    {
+      "name": "train/S01/c001/det/det_ssd512.txt",
+      "size": 643707,
+      "comp_size": 218436,
+      "offset": 1391598708
+    },
+    {
+      "name": "train/S01/c001/det/det_mask_rcnn.txt",
+      "size": 1440727,
+      "comp_size": 478797,
+      "offset": 1391817255
+    },
+    {
+      "name": "train/S01/c001/segm/segm_mask_rcnn.txt",
+      "size": 7508025,
+      "comp_size": 1888744,
+      "offset": 1392299560
+    },
+    {
+      "name": "train/S01/c001/calibration.txt",
+      "size": 230,
+      "comp_size": 162,
+      "offset": 1394188420
+    },
+    {
+      "name": "train/S01/c001/gt/gt.txt",
+      "size": 117596,
+      "comp_size": 29248,
+      "offset": 1394188770
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1047902,
+      "comp_size": 336532,
+      "offset": 1394218202
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_tc_ssd512.txt",
+      "size": 488526,
+      "comp_size": 134518,
+      "offset": 1394554856
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 595339,
+      "comp_size": 176090,
+      "offset": 1394689490
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 513466,
+      "comp_size": 152051,
+      "offset": 1394865701
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 1058159,
+      "comp_size": 302441,
+      "offset": 1395017874
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 976201,
+      "comp_size": 199574,
+      "offset": 1395320440
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_moana_yolo3.txt",
+      "size": 660734,
+      "comp_size": 214880,
+      "offset": 1395520133
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_moana_ssd512.txt",
+      "size": 537661,
+      "comp_size": 176445,
+      "offset": 1395735131
+    },
+    {
+      "name": "train/S01/c001/mtsc/mtsc_tc_yolo3.txt",
+      "size": 564830,
+      "comp_size": 135821,
+      "offset": 1395911695
+    },
+    {
+      "name": "train/S04/c018/det/det_yolo3.txt",
+      "size": 66305,
+      "comp_size": 22820,
+      "offset": 1449987930
+    },
+    {
+      "name": "train/S04/c018/det/det_ssd512.txt",
+      "size": 86848,
+      "comp_size": 28855,
+      "offset": 1450010860
+    },
+    {
+      "name": "train/S04/c018/det/det_mask_rcnn.txt",
+      "size": 132992,
+      "comp_size": 43259,
+      "offset": 1450039826
+    },
+    {
+      "name": "train/S04/c018/segm/segm_mask_rcnn.txt",
+      "size": 1094428,
+      "comp_size": 229742,
+      "offset": 1450102731
+    },
+    {
+      "name": "train/S04/c018/calibration.txt",
+      "size": 230,
+      "comp_size": 159,
+      "offset": 1450332589
+    },
+    {
+      "name": "train/S04/c018/gt/gt.txt",
+      "size": 12878,
+      "comp_size": 3853,
+      "offset": 1450332936
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 79207,
+      "comp_size": 25865,
+      "offset": 1450336973
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_tc_ssd512.txt",
+      "size": 52623,
+      "comp_size": 13779,
+      "offset": 1450362960
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 54398,
+      "comp_size": 16677,
+      "offset": 1450376855
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 51117,
+      "comp_size": 15353,
+      "offset": 1450393653
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 72556,
+      "comp_size": 21189,
+      "offset": 1450409128
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 73954,
+      "comp_size": 17964,
+      "offset": 1450430442
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_moana_yolo3.txt",
+      "size": 60344,
+      "comp_size": 20305,
+      "offset": 1450448525
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_moana_ssd512.txt",
+      "size": 57070,
+      "comp_size": 18984,
+      "offset": 1450468948
+    },
+    {
+      "name": "train/S04/c018/mtsc/mtsc_tc_yolo3.txt",
+      "size": 54473,
+      "comp_size": 16210,
+      "offset": 1450488051
+    },
+    {
+      "name": "train/S04/c036/det/det_yolo3.txt",
+      "size": 261708,
+      "comp_size": 92750,
+      "offset": 1507444669
+    },
+    {
+      "name": "train/S04/c036/det/det_ssd512.txt",
+      "size": 270835,
+      "comp_size": 95574,
+      "offset": 1507537529
+    },
+    {
+      "name": "train/S04/c036/det/det_mask_rcnn.txt",
+      "size": 411910,
+      "comp_size": 144045,
+      "offset": 1507633214
+    },
+    {
+      "name": "train/S04/c036/segm/segm_mask_rcnn.txt",
+      "size": 2976027,
+      "comp_size": 858988,
+      "offset": 1507787534
+    },
+    {
+      "name": "train/S04/c036/calibration.txt",
+      "size": 229,
+      "comp_size": 162,
+      "offset": 1508646638
+    },
+    {
+      "name": "train/S04/c036/gt/gt.txt",
+      "size": 73814,
+      "comp_size": 18538,
+      "offset": 1508646988
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 247169,
+      "comp_size": 85629,
+      "offset": 1508665710
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_tc_ssd512.txt",
+      "size": 175484,
+      "comp_size": 55358,
+      "offset": 1508751461
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 217447,
+      "comp_size": 69271,
+      "offset": 1508806935
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 185726,
+      "comp_size": 59490,
+      "offset": 1508876327
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 269525,
+      "comp_size": 85080,
+      "offset": 1508935939
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 252154,
+      "comp_size": 75771,
+      "offset": 1509021144
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_moana_yolo3.txt",
+      "size": 231641,
+      "comp_size": 79969,
+      "offset": 1509097034
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_moana_ssd512.txt",
+      "size": 187802,
+      "comp_size": 65392,
+      "offset": 1509177121
+    },
+    {
+      "name": "train/S04/c036/mtsc/mtsc_tc_yolo3.txt",
+      "size": 217845,
+      "comp_size": 67019,
+      "offset": 1509242632
+    },
+    {
+      "name": "train/S04/c022/det/det_yolo3.txt",
+      "size": 66065,
+      "comp_size": 23942,
+      "offset": 1546218117
+    },
+    {
+      "name": "train/S04/c022/det/det_ssd512.txt",
+      "size": 50535,
+      "comp_size": 18860,
+      "offset": 1546242169
+    },
+    {
+      "name": "train/S04/c022/det/det_mask_rcnn.txt",
+      "size": 90829,
+      "comp_size": 31963,
+      "offset": 1546261140
+    },
+    {
+      "name": "train/S04/c022/segm/segm_mask_rcnn.txt",
+      "size": 485501,
+      "comp_size": 128592,
+      "offset": 1546309544
+    },
+    {
+      "name": "train/S04/c022/calibration.txt",
+      "size": 229,
+      "comp_size": 160,
+      "offset": 1546438252
+    },
+    {
+      "name": "train/S04/c022/gt/gt.txt",
+      "size": 21764,
+      "comp_size": 5873,
+      "offset": 1546438600
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 66857,
+      "comp_size": 23363,
+      "offset": 1546444657
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_tc_ssd512.txt",
+      "size": 35998,
+      "comp_size": 12210,
+      "offset": 1546468142
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 54279,
+      "comp_size": 17375,
+      "offset": 1546480468
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 37561,
+      "comp_size": 12719,
+      "offset": 1546497964
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 63351,
+      "comp_size": 19884,
+      "offset": 1546510805
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 61034,
+      "comp_size": 17954,
+      "offset": 1546530814
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_moana_yolo3.txt",
+      "size": 58911,
+      "comp_size": 20817,
+      "offset": 1546548887
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_moana_ssd512.txt",
+      "size": 41397,
+      "comp_size": 15138,
+      "offset": 1546569822
+    },
+    {
+      "name": "train/S04/c022/mtsc/mtsc_tc_yolo3.txt",
+      "size": 53799,
+      "comp_size": 16856,
+      "offset": 1546585079
+    },
+    {
+      "name": "train/S04/c037/det/det_yolo3.txt",
+      "size": 88453,
+      "comp_size": 26432,
+      "offset": 1582665113
+    },
+    {
+      "name": "train/S04/c037/det/det_ssd512.txt",
+      "size": 128858,
+      "comp_size": 33618,
+      "offset": 1582691655
+    },
+    {
+      "name": "train/S04/c037/det/det_mask_rcnn.txt",
+      "size": 148831,
+      "comp_size": 39666,
+      "offset": 1582725384
+    },
+    {
+      "name": "train/S04/c037/segm/segm_mask_rcnn.txt",
+      "size": 1695420,
+      "comp_size": 316687,
+      "offset": 1582778614
+    },
+    {
+      "name": "train/S04/c037/calibration.txt",
+      "size": 232,
+      "comp_size": 160,
+      "offset": 1583095417
+    },
+    {
+      "name": "train/S04/c037/gt/gt.txt",
+      "size": 42621,
+      "comp_size": 9362,
+      "offset": 1583095765
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 82224,
+      "comp_size": 22535,
+      "offset": 1583105311
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_tc_ssd512.txt",
+      "size": 68994,
+      "comp_size": 22860,
+      "offset": 1583127968
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 71236,
+      "comp_size": 23429,
+      "offset": 1583150944
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 73567,
+      "comp_size": 23945,
+      "offset": 1583174494
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 81442,
+      "comp_size": 26294,
+      "offset": 1583198561
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 77974,
+      "comp_size": 25449,
+      "offset": 1583224980
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_moana_yolo3.txt",
+      "size": 77018,
+      "comp_size": 22738,
+      "offset": 1583250548
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_moana_ssd512.txt",
+      "size": 77632,
+      "comp_size": 21271,
+      "offset": 1583273404
+    },
+    {
+      "name": "train/S04/c037/mtsc/mtsc_tc_yolo3.txt",
+      "size": 68959,
+      "comp_size": 22852,
+      "offset": 1583294794
+    },
+    {
+      "name": "train/S04/c040/det/det_yolo3.txt",
+      "size": 208448,
+      "comp_size": 72164,
+      "offset": 1616194170
+    },
+    {
+      "name": "train/S04/c040/det/det_ssd512.txt",
+      "size": 235197,
+      "comp_size": 79323,
+      "offset": 1616266444
+    },
+    {
+      "name": "train/S04/c040/det/det_mask_rcnn.txt",
+      "size": 361368,
+      "comp_size": 122427,
+      "offset": 1616345878
+    },
+    {
+      "name": "train/S04/c040/segm/segm_mask_rcnn.txt",
+      "size": 1505583,
+      "comp_size": 400737,
+      "offset": 1616482157
+    },
+    {
+      "name": "train/S04/c040/calibration.txt",
+      "size": 227,
+      "comp_size": 159,
+      "offset": 1616883010
+    },
+    {
+      "name": "train/S04/c040/gt/gt.txt",
+      "size": 38383,
+      "comp_size": 9259,
+      "offset": 1616883357
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 226541,
+      "comp_size": 74928,
+      "offset": 1616892800
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_tc_ssd512.txt",
+      "size": 175693,
+      "comp_size": 50096,
+      "offset": 1616967850
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 173041,
+      "comp_size": 52545,
+      "offset": 1617018062
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 179644,
+      "comp_size": 53857,
+      "offset": 1617070728
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 273072,
+      "comp_size": 80876,
+      "offset": 1617124707
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 229509,
+      "comp_size": 62098,
+      "offset": 1617205708
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_moana_yolo3.txt",
+      "size": 181903,
+      "comp_size": 60854,
+      "offset": 1617267925
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_moana_ssd512.txt",
+      "size": 168761,
+      "comp_size": 56115,
+      "offset": 1617328897
+    },
+    {
+      "name": "train/S04/c040/mtsc/mtsc_tc_yolo3.txt",
+      "size": 176665,
+      "comp_size": 49302,
+      "offset": 1617385131
+    },
+    {
+      "name": "train/S04/c027/det/det_yolo3.txt",
+      "size": 274287,
+      "comp_size": 95694,
+      "offset": 1676486894
+    },
+    {
+      "name": "train/S04/c027/det/det_ssd512.txt",
+      "size": 442875,
+      "comp_size": 152675,
+      "offset": 1676582698
+    },
+    {
+      "name": "train/S04/c027/det/det_mask_rcnn.txt",
+      "size": 567420,
+      "comp_size": 196485,
+      "offset": 1676735484
+    },
+    {
+      "name": "train/S04/c027/segm/segm_mask_rcnn.txt",
+      "size": 3803611,
+      "comp_size": 1236984,
+      "offset": 1676951176
+    },
+    {
+      "name": "train/S04/c027/calibration.txt",
+      "size": 231,
+      "comp_size": 162,
+      "offset": 1678188276
+    },
+    {
+      "name": "train/S04/c027/gt/gt.txt",
+      "size": 36263,
+      "comp_size": 9569,
+      "offset": 1678188626
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 297776,
+      "comp_size": 100647,
+      "offset": 1678198379
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_tc_ssd512.txt",
+      "size": 245630,
+      "comp_size": 66706,
+      "offset": 1678299148
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 229745,
+      "comp_size": 70958,
+      "offset": 1678365970
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 276575,
+      "comp_size": 84488,
+      "offset": 1678437049
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 380873,
+      "comp_size": 116345,
+      "offset": 1678521659
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 315600,
+      "comp_size": 84530,
+      "offset": 1678638129
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_moana_yolo3.txt",
+      "size": 248644,
+      "comp_size": 84116,
+      "offset": 1678722778
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_moana_ssd512.txt",
+      "size": 257518,
+      "comp_size": 86766,
+      "offset": 1678807012
+    },
+    {
+      "name": "train/S04/c027/mtsc/mtsc_tc_yolo3.txt",
+      "size": 235303,
+      "comp_size": 66230,
+      "offset": 1678893897
+    },
+    {
+      "name": "train/S04/c038/det/det_yolo3.txt",
+      "size": 125829,
+      "comp_size": 46090,
+      "offset": 1769604948
+    },
+    {
+      "name": "train/S04/c038/det/det_ssd512.txt",
+      "size": 107399,
+      "comp_size": 39423,
+      "offset": 1769651148
+    },
+    {
+      "name": "train/S04/c038/det/det_mask_rcnn.txt",
+      "size": 254987,
+      "comp_size": 90585,
+      "offset": 1769690682
+    },
+    {
+      "name": "train/S04/c038/segm/segm_mask_rcnn.txt",
+      "size": 1716322,
+      "comp_size": 463133,
+      "offset": 1769801148
+    },
+    {
+      "name": "train/S04/c038/calibration.txt",
+      "size": 237,
+      "comp_size": 166,
+      "offset": 1770264397
+    },
+    {
+      "name": "train/S04/c038/gt/gt.txt",
+      "size": 37976,
+      "comp_size": 10961,
+      "offset": 1770264751
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 137626,
+      "comp_size": 48928,
+      "offset": 1770275896
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_tc_ssd512.txt",
+      "size": 67259,
+      "comp_size": 22911,
+      "offset": 1770324946
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 104179,
+      "comp_size": 34359,
+      "offset": 1770347973
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 76046,
+      "comp_size": 25740,
+      "offset": 1770382453
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 168829,
+      "comp_size": 53943,
+      "offset": 1770408315
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 119601,
+      "comp_size": 38942,
+      "offset": 1770462383
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_moana_yolo3.txt",
+      "size": 116513,
+      "comp_size": 41416,
+      "offset": 1770501444
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_moana_ssd512.txt",
+      "size": 82975,
+      "comp_size": 30069,
+      "offset": 1770542978
+    },
+    {
+      "name": "train/S04/c038/mtsc/mtsc_tc_yolo3.txt",
+      "size": 103742,
+      "comp_size": 33866,
+      "offset": 1770573166
+    },
+    {
+      "name": "train/S04/c028/det/det_yolo3.txt",
+      "size": 51688,
+      "comp_size": 18387,
+      "offset": 1791740219
+    },
+    {
+      "name": "train/S04/c028/det/det_ssd512.txt",
+      "size": 75252,
+      "comp_size": 26291,
+      "offset": 1791758716
+    },
+    {
+      "name": "train/S04/c028/det/det_mask_rcnn.txt",
+      "size": 144895,
+      "comp_size": 49293,
+      "offset": 1791785118
+    },
+    {
+      "name": "train/S04/c028/segm/segm_mask_rcnn.txt",
+      "size": 921510,
+      "comp_size": 232973,
+      "offset": 1791850317
+    },
+    {
+      "name": "train/S04/c028/calibration.txt",
+      "size": 229,
+      "comp_size": 160,
+      "offset": 1792083406
+    },
+    {
+      "name": "train/S04/c028/gt/gt.txt",
+      "size": 5588,
+      "comp_size": 1642,
+      "offset": 1792083754
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 87405,
+      "comp_size": 29287,
+      "offset": 1792085580
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_tc_ssd512.txt",
+      "size": 47343,
+      "comp_size": 10835,
+      "offset": 1792114989
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 43220,
+      "comp_size": 13672,
+      "offset": 1792125940
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 45040,
+      "comp_size": 13795,
+      "offset": 1792139733
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 90026,
+      "comp_size": 27404,
+      "offset": 1792153650
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 73228,
+      "comp_size": 19817,
+      "offset": 1792181179
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_moana_yolo3.txt",
+      "size": 48994,
+      "comp_size": 16720,
+      "offset": 1792201115
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_moana_ssd512.txt",
+      "size": 48456,
+      "comp_size": 16764,
+      "offset": 1792217953
+    },
+    {
+      "name": "train/S04/c028/mtsc/mtsc_tc_yolo3.txt",
+      "size": 44275,
+      "comp_size": 10308,
+      "offset": 1792234836
+    },
+    {
+      "name": "train/S04/c019/det/det_yolo3.txt",
+      "size": 51188,
+      "comp_size": 17656,
+      "offset": 1851197934
+    },
+    {
+      "name": "train/S04/c019/det/det_ssd512.txt",
+      "size": 64158,
+      "comp_size": 21604,
+      "offset": 1851215700
+    },
+    {
+      "name": "train/S04/c019/det/det_mask_rcnn.txt",
+      "size": 73300,
+      "comp_size": 23414,
+      "offset": 1851237415
+    },
+    {
+      "name": "train/S04/c019/segm/segm_mask_rcnn.txt",
+      "size": 830255,
+      "comp_size": 154888,
+      "offset": 1851270184
+    },
+    {
+      "name": "train/S04/c019/calibration.txt",
+      "size": 230,
+      "comp_size": 161,
+      "offset": 1851425188
+    },
+    {
+      "name": "train/S04/c019/gt/gt.txt",
+      "size": 14709,
+      "comp_size": 3302,
+      "offset": 1851425537
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 63869,
+      "comp_size": 20222,
+      "offset": 1851429023
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_tc_ssd512.txt",
+      "size": 37220,
+      "comp_size": 8780,
+      "offset": 1851449367
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 41800,
+      "comp_size": 12989,
+      "offset": 1851458263
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 39799,
+      "comp_size": 12081,
+      "offset": 1851471373
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 56457,
+      "comp_size": 15963,
+      "offset": 1851483576
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 55015,
+      "comp_size": 12031,
+      "offset": 1851499664
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_moana_yolo3.txt",
+      "size": 46199,
+      "comp_size": 15720,
+      "offset": 1851511814
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_moana_ssd512.txt",
+      "size": 44123,
+      "comp_size": 14265,
+      "offset": 1851527652
+    },
+    {
+      "name": "train/S04/c019/mtsc/mtsc_tc_yolo3.txt",
+      "size": 40838,
+      "comp_size": 11298,
+      "offset": 1851542036
+    },
+    {
+      "name": "train/S04/c030/det/det_yolo3.txt",
+      "size": 398099,
+      "comp_size": 136595,
+      "offset": 1897667322
+    },
+    {
+      "name": "train/S04/c030/det/det_ssd512.txt",
+      "size": 180546,
+      "comp_size": 61323,
+      "offset": 1897804027
+    },
+    {
+      "name": "train/S04/c030/det/det_mask_rcnn.txt",
+      "size": 656469,
+      "comp_size": 219732,
+      "offset": 1897865461
+    },
+    {
+      "name": "train/S04/c030/segm/segm_mask_rcnn.txt",
+      "size": 3039795,
+      "comp_size": 717494,
+      "offset": 1898103119
+    },
+    {
+      "name": "train/S04/c030/calibration.txt",
+      "size": 228,
+      "comp_size": 161,
+      "offset": 1898820729
+    },
+    {
+      "name": "train/S04/c030/gt/gt.txt",
+      "size": 55007,
+      "comp_size": 14498,
+      "offset": 1898821078
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 435340,
+      "comp_size": 142464,
+      "offset": 1898835760
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_tc_ssd512.txt",
+      "size": 136087,
+      "comp_size": 36127,
+      "offset": 1898978346
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 334364,
+      "comp_size": 98606,
+      "offset": 1899014589
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 139373,
+      "comp_size": 42599,
+      "offset": 1899113316
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 468187,
+      "comp_size": 136247,
+      "offset": 1899156037
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 438158,
+      "comp_size": 94766,
+      "offset": 1899292409
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_moana_yolo3.txt",
+      "size": 355855,
+      "comp_size": 117571,
+      "offset": 1899387294
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_moana_ssd512.txt",
+      "size": 156316,
+      "comp_size": 52093,
+      "offset": 1899504983
+    },
+    {
+      "name": "train/S04/c030/mtsc/mtsc_tc_yolo3.txt",
+      "size": 344045,
+      "comp_size": 85124,
+      "offset": 1899557195
+    },
+    {
+      "name": "train/S04/c025/det/det_yolo3.txt",
+      "size": 218697,
+      "comp_size": 75813,
+      "offset": 1971704470
+    },
+    {
+      "name": "train/S04/c025/det/det_ssd512.txt",
+      "size": 243577,
+      "comp_size": 84411,
+      "offset": 1971780393
+    },
+    {
+      "name": "train/S04/c025/det/det_mask_rcnn.txt",
+      "size": 301385,
+      "comp_size": 101797,
+      "offset": 1971864915
+    },
+    {
+      "name": "train/S04/c025/segm/segm_mask_rcnn.txt",
+      "size": 1702664,
+      "comp_size": 430152,
+      "offset": 1971987478
+    },
+    {
+      "name": "train/S04/c025/calibration.txt",
+      "size": 228,
+      "comp_size": 159,
+      "offset": 1972417746
+    },
+    {
+      "name": "train/S04/c025/gt/gt.txt",
+      "size": 22390,
+      "comp_size": 6264,
+      "offset": 1972418093
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 249856,
+      "comp_size": 82453,
+      "offset": 1972424541
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_tc_ssd512.txt",
+      "size": 178875,
+      "comp_size": 49758,
+      "offset": 1972507116
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 182533,
+      "comp_size": 55856,
+      "offset": 1972556990
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 203010,
+      "comp_size": 61732,
+      "offset": 1972612967
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 241095,
+      "comp_size": 71744,
+      "offset": 1972674821
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 234404,
+      "comp_size": 44925,
+      "offset": 1972746690
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_moana_yolo3.txt",
+      "size": 199754,
+      "comp_size": 67394,
+      "offset": 1972791734
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_moana_ssd512.txt",
+      "size": 184598,
+      "comp_size": 62474,
+      "offset": 1972859246
+    },
+    {
+      "name": "train/S04/c025/mtsc/mtsc_tc_yolo3.txt",
+      "size": 181685,
+      "comp_size": 48680,
+      "offset": 1972921839
+    },
+    {
+      "name": "train/S04/c032/det/det_yolo3.txt",
+      "size": 347786,
+      "comp_size": 119634,
+      "offset": 2016193255
+    },
+    {
+      "name": "train/S04/c032/det/det_ssd512.txt",
+      "size": 242031,
+      "comp_size": 81281,
+      "offset": 2016312999
+    },
+    {
+      "name": "train/S04/c032/det/det_mask_rcnn.txt",
+      "size": 645857,
+      "comp_size": 217339,
+      "offset": 2016394391
+    },
+    {
+      "name": "train/S04/c032/segm/segm_mask_rcnn.txt",
+      "size": 2414204,
+      "comp_size": 649976,
+      "offset": 2016625349
+    },
+    {
+      "name": "train/S04/c032/calibration.txt",
+      "size": 229,
+      "comp_size": 162,
+      "offset": 2017275441
+    },
+    {
+      "name": "train/S04/c032/gt/gt.txt",
+      "size": 50906,
+      "comp_size": 13677,
+      "offset": 2017275791
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 429220,
+      "comp_size": 140904,
+      "offset": 2017289652
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_tc_ssd512.txt",
+      "size": 143072,
+      "comp_size": 39808,
+      "offset": 2017430678
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 280180,
+      "comp_size": 84479,
+      "offset": 2017470602
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 160120,
+      "comp_size": 48722,
+      "offset": 2017555202
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 521227,
+      "comp_size": 152813,
+      "offset": 2017604046
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 414186,
+      "comp_size": 112365,
+      "offset": 2017756984
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_moana_yolo3.txt",
+      "size": 321188,
+      "comp_size": 105860,
+      "offset": 2017869468
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_moana_ssd512.txt",
+      "size": 159372,
+      "comp_size": 53193,
+      "offset": 2017975446
+    },
+    {
+      "name": "train/S04/c032/mtsc/mtsc_tc_yolo3.txt",
+      "size": 292024,
+      "comp_size": 82184,
+      "offset": 2018028758
+    },
+    {
+      "name": "train/S04/c034/det/det_yolo3.txt",
+      "size": 318400,
+      "comp_size": 113306,
+      "offset": 2073819369
+    },
+    {
+      "name": "train/S04/c034/det/det_ssd512.txt",
+      "size": 485113,
+      "comp_size": 164570,
+      "offset": 2073932785
+    },
+    {
+      "name": "train/S04/c034/det/det_mask_rcnn.txt",
+      "size": 665193,
+      "comp_size": 230043,
+      "offset": 2074097466
+    },
+    {
+      "name": "train/S04/c034/segm/segm_mask_rcnn.txt",
+      "size": 4740351,
+      "comp_size": 1369450,
+      "offset": 2074347930
+    },
+    {
+      "name": "train/S04/c034/calibration.txt",
+      "size": 227,
+      "comp_size": 158,
+      "offset": 2075717496
+    },
+    {
+      "name": "train/S04/c034/gt/gt.txt",
+      "size": 90324,
+      "comp_size": 24340,
+      "offset": 2075717842
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 386244,
+      "comp_size": 132107,
+      "offset": 2075742366
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_tc_ssd512.txt",
+      "size": 314159,
+      "comp_size": 88116,
+      "offset": 2075874595
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 264510,
+      "comp_size": 84184,
+      "offset": 2075962827
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 333487,
+      "comp_size": 103792,
+      "offset": 2076047132
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 409412,
+      "comp_size": 126990,
+      "offset": 2076151046
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 356258,
+      "comp_size": 100963,
+      "offset": 2076278161
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_moana_yolo3.txt",
+      "size": 282530,
+      "comp_size": 98574,
+      "offset": 2076379243
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_moana_ssd512.txt",
+      "size": 328577,
+      "comp_size": 112952,
+      "offset": 2076477935
+    },
+    {
+      "name": "train/S04/c034/mtsc/mtsc_tc_yolo3.txt",
+      "size": 269983,
+      "comp_size": 82874,
+      "offset": 2076591006
+    },
+    {
+      "name": "train/S04/c035/det/det_yolo3.txt",
+      "size": 60433,
+      "comp_size": 22094,
+      "offset": 2098750881
+    },
+    {
+      "name": "train/S04/c035/det/det_ssd512.txt",
+      "size": 43020,
+      "comp_size": 16037,
+      "offset": 2098773085
+    },
+    {
+      "name": "train/S04/c035/det/det_mask_rcnn.txt",
+      "size": 67667,
+      "comp_size": 24915,
+      "offset": 2098789233
+    },
+    {
+      "name": "train/S04/c035/segm/segm_mask_rcnn.txt",
+      "size": 633576,
+      "comp_size": 167510,
+      "offset": 2098831461
+    },
+    {
+      "name": "train/S04/c035/calibration.txt",
+      "size": 535,
+      "comp_size": 243,
+      "offset": 2098999087
+    },
+    {
+      "name": "train/S04/c035/gt/gt.txt",
+      "size": 24948,
+      "comp_size": 6998,
+      "offset": 2098999518
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 49525,
+      "comp_size": 18364,
+      "offset": 2099006700
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_tc_ssd512.txt",
+      "size": 28993,
+      "comp_size": 10338,
+      "offset": 2099025186
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 49367,
+      "comp_size": 16550,
+      "offset": 2099035640
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 29440,
+      "comp_size": 10490,
+      "offset": 2099052311
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 44339,
+      "comp_size": 15324,
+      "offset": 2099062923
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 39831,
+      "comp_size": 13961,
+      "offset": 2099078372
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_moana_yolo3.txt",
+      "size": 54472,
+      "comp_size": 19530,
+      "offset": 2099092452
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_moana_ssd512.txt",
+      "size": 34191,
+      "comp_size": 12867,
+      "offset": 2099112100
+    },
+    {
+      "name": "train/S04/c035/mtsc/mtsc_tc_yolo3.txt",
+      "size": 47742,
+      "comp_size": 15054,
+      "offset": 2099125086
+    },
+    {
+      "name": "train/S04/c016/det/det_yolo3.txt",
+      "size": 55184,
+      "comp_size": 20311,
+      "offset": 2124281207
+    },
+    {
+      "name": "train/S04/c016/det/det_ssd512.txt",
+      "size": 98646,
+      "comp_size": 35525,
+      "offset": 2124301628
+    },
+    {
+      "name": "train/S04/c016/det/det_mask_rcnn.txt",
+      "size": 162955,
+      "comp_size": 57477,
+      "offset": 2124337264
+    },
+    {
+      "name": "train/S04/c016/segm/segm_mask_rcnn.txt",
+      "size": 1610220,
+      "comp_size": 453252,
+      "offset": 2124410703
+    },
+    {
+      "name": "train/S04/c016/calibration.txt",
+      "size": 233,
+      "comp_size": 164,
+      "offset": 2124864071
+    },
+    {
+      "name": "train/S04/c016/gt/gt.txt",
+      "size": 25673,
+      "comp_size": 7037,
+      "offset": 2124864423
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 105767,
+      "comp_size": 37458,
+      "offset": 2124871644
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_tc_ssd512.txt",
+      "size": 64101,
+      "comp_size": 19486,
+      "offset": 2124909224
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 45177,
+      "comp_size": 15467,
+      "offset": 2124928826
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 70071,
+      "comp_size": 22931,
+      "offset": 2124944414
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 107598,
+      "comp_size": 34777,
+      "offset": 2124967467
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 89098,
+      "comp_size": 27352,
+      "offset": 2125002369
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_moana_yolo3.txt",
+      "size": 50762,
+      "comp_size": 18493,
+      "offset": 2125029840
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_moana_ssd512.txt",
+      "size": 78174,
+      "comp_size": 27492,
+      "offset": 2125048451
+    },
+    {
+      "name": "train/S04/c016/mtsc/mtsc_tc_yolo3.txt",
+      "size": 41230,
+      "comp_size": 14282,
+      "offset": 2125076062
+    },
+    {
+      "name": "train/S04/c033/det/det_yolo3.txt",
+      "size": 252551,
+      "comp_size": 89211,
+      "offset": 2169944076
+    },
+    {
+      "name": "train/S04/c033/det/det_ssd512.txt",
+      "size": 302532,
+      "comp_size": 104551,
+      "offset": 2170033397
+    },
+    {
+      "name": "train/S04/c033/det/det_mask_rcnn.txt",
+      "size": 353767,
+      "comp_size": 123101,
+      "offset": 2170138059
+    },
+    {
+      "name": "train/S04/c033/segm/segm_mask_rcnn.txt",
+      "size": 3293195,
+      "comp_size": 957587,
+      "offset": 2170269511
+    },
+    {
+      "name": "train/S04/c033/calibration.txt",
+      "size": 234,
+      "comp_size": 159,
+      "offset": 2171227214
+    },
+    {
+      "name": "train/S04/c033/gt/gt.txt",
+      "size": 89962,
+      "comp_size": 22146,
+      "offset": 2171227561
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 227018,
+      "comp_size": 78860,
+      "offset": 2171249891
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_tc_ssd512.txt",
+      "size": 192082,
+      "comp_size": 59839,
+      "offset": 2171328873
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 208350,
+      "comp_size": 66326,
+      "offset": 2171388828
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 197295,
+      "comp_size": 63101,
+      "offset": 2171455275
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 232572,
+      "comp_size": 73716,
+      "offset": 2171518498
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 223879,
+      "comp_size": 64505,
+      "offset": 2171592339
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_moana_yolo3.txt",
+      "size": 218136,
+      "comp_size": 75837,
+      "offset": 2171656963
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_moana_ssd512.txt",
+      "size": 204083,
+      "comp_size": 71346,
+      "offset": 2171732918
+    },
+    {
+      "name": "train/S04/c033/mtsc/mtsc_tc_yolo3.txt",
+      "size": 207311,
+      "comp_size": 63153,
+      "offset": 2171804383
+    },
+    {
+      "name": "train/S04/c026/det/det_yolo3.txt",
+      "size": 301352,
+      "comp_size": 105716,
+      "offset": 2279321662
+    },
+    {
+      "name": "train/S04/c026/det/det_ssd512.txt",
+      "size": 193763,
+      "comp_size": 68092,
+      "offset": 2279427488
+    },
+    {
+      "name": "train/S04/c026/det/det_mask_rcnn.txt",
+      "size": 505307,
+      "comp_size": 176023,
+      "offset": 2279495691
+    },
+    {
+      "name": "train/S04/c026/segm/segm_mask_rcnn.txt",
+      "size": 2661013,
+      "comp_size": 776826,
+      "offset": 2279692329
+    },
+    {
+      "name": "train/S04/c026/calibration.txt",
+      "size": 233,
+      "comp_size": 164,
+      "offset": 2280469271
+    },
+    {
+      "name": "train/S04/c026/gt/gt.txt",
+      "size": 67029,
+      "comp_size": 16685,
+      "offset": 2280469623
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 320952,
+      "comp_size": 107896,
+      "offset": 2280486492
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_tc_ssd512.txt",
+      "size": 131349,
+      "comp_size": 37233,
+      "offset": 2280594510
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 256624,
+      "comp_size": 78495,
+      "offset": 2280631859
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 157347,
+      "comp_size": 49286,
+      "offset": 2280710475
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 368809,
+      "comp_size": 112147,
+      "offset": 2280759883
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 270221,
+      "comp_size": 75156,
+      "offset": 2280872155
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_moana_yolo3.txt",
+      "size": 284532,
+      "comp_size": 95792,
+      "offset": 2280947430
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_moana_ssd512.txt",
+      "size": 171045,
+      "comp_size": 57720,
+      "offset": 2281043340
+    },
+    {
+      "name": "train/S04/c026/mtsc/mtsc_tc_yolo3.txt",
+      "size": 248044,
+      "comp_size": 65329,
+      "offset": 2281101179
+    },
+    {
+      "name": "train/S04/c017/det/det_yolo3.txt",
+      "size": 92133,
+      "comp_size": 32250,
+      "offset": 2303709350
+    },
+    {
+      "name": "train/S04/c017/det/det_ssd512.txt",
+      "size": 102530,
+      "comp_size": 35177,
+      "offset": 2303741710
+    },
+    {
+      "name": "train/S04/c017/det/det_mask_rcnn.txt",
+      "size": 107705,
+      "comp_size": 35967,
+      "offset": 2303776998
+    },
+    {
+      "name": "train/S04/c017/segm/segm_mask_rcnn.txt",
+      "size": 884163,
+      "comp_size": 217472,
+      "offset": 2303825429
+    },
+    {
+      "name": "train/S04/c017/calibration.txt",
+      "size": 229,
+      "comp_size": 161,
+      "offset": 2304043017
+    },
+    {
+      "name": "train/S04/c017/gt/gt.txt",
+      "size": 12855,
+      "comp_size": 3612,
+      "offset": 2304043366
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 81798,
+      "comp_size": 27468,
+      "offset": 2304047162
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_tc_ssd512.txt",
+      "size": 71594,
+      "comp_size": 19814,
+      "offset": 2304074752
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 76128,
+      "comp_size": 23742,
+      "offset": 2304094682
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 71480,
+      "comp_size": 21644,
+      "offset": 2304118545
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 75166,
+      "comp_size": 22814,
+      "offset": 2304140311
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 75451,
+      "comp_size": 19076,
+      "offset": 2304163250
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_moana_yolo3.txt",
+      "size": 82712,
+      "comp_size": 28311,
+      "offset": 2304182445
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_moana_ssd512.txt",
+      "size": 78296,
+      "comp_size": 26239,
+      "offset": 2304210874
+    },
+    {
+      "name": "train/S04/c017/mtsc/mtsc_tc_yolo3.txt",
+      "size": 77140,
+      "comp_size": 21634,
+      "offset": 2304237232
+    },
+    {
+      "name": "train/S04/c023/det/det_yolo3.txt",
+      "size": 217441,
+      "comp_size": 73171,
+      "offset": 2397890798
+    },
+    {
+      "name": "train/S04/c023/det/det_ssd512.txt",
+      "size": 191078,
+      "comp_size": 64746,
+      "offset": 2397964079
+    },
+    {
+      "name": "train/S04/c023/det/det_mask_rcnn.txt",
+      "size": 286054,
+      "comp_size": 96591,
+      "offset": 2398028936
+    },
+    {
+      "name": "train/S04/c023/segm/segm_mask_rcnn.txt",
+      "size": 1637753,
+      "comp_size": 426047,
+      "offset": 2398146728
+    },
+    {
+      "name": "train/S04/c023/calibration.txt",
+      "size": 231,
+      "comp_size": 158,
+      "offset": 2398572891
+    },
+    {
+      "name": "train/S04/c023/gt/gt.txt",
+      "size": 23013,
+      "comp_size": 6429,
+      "offset": 2398573237
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 207314,
+      "comp_size": 68410,
+      "offset": 2398579850
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_tc_ssd512.txt",
+      "size": 149188,
+      "comp_size": 39462,
+      "offset": 2398648382
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 182227,
+      "comp_size": 54516,
+      "offset": 2398687960
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 157574,
+      "comp_size": 47164,
+      "offset": 2398742597
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 230371,
+      "comp_size": 68151,
+      "offset": 2398789883
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 195199,
+      "comp_size": 46069,
+      "offset": 2398858159
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_moana_yolo3.txt",
+      "size": 181600,
+      "comp_size": 60264,
+      "offset": 2398904347
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_moana_ssd512.txt",
+      "size": 148677,
+      "comp_size": 49089,
+      "offset": 2398964729
+    },
+    {
+      "name": "train/S04/c023/mtsc/mtsc_tc_yolo3.txt",
+      "size": 188962,
+      "comp_size": 47907,
+      "offset": 2399013937
+    },
+    {
+      "name": "train/S04/c021/det/det_yolo3.txt",
+      "size": 125641,
+      "comp_size": 43532,
+      "offset": 2424309237
+    },
+    {
+      "name": "train/S04/c021/det/det_ssd512.txt",
+      "size": 142667,
+      "comp_size": 49384,
+      "offset": 2424352879
+    },
+    {
+      "name": "train/S04/c021/det/det_mask_rcnn.txt",
+      "size": 190548,
+      "comp_size": 64288,
+      "offset": 2424402374
+    },
+    {
+      "name": "train/S04/c021/segm/segm_mask_rcnn.txt",
+      "size": 1465899,
+      "comp_size": 362466,
+      "offset": 2424484925
+    },
+    {
+      "name": "train/S04/c021/calibration.txt",
+      "size": 231,
+      "comp_size": 163,
+      "offset": 2424847507
+    },
+    {
+      "name": "train/S04/c021/gt/gt.txt",
+      "size": 16104,
+      "comp_size": 4567,
+      "offset": 2424847858
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 130965,
+      "comp_size": 43940,
+      "offset": 2424852609
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_tc_ssd512.txt",
+      "size": 108013,
+      "comp_size": 29569,
+      "offset": 2424896671
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 104424,
+      "comp_size": 32352,
+      "offset": 2424926356
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 105278,
+      "comp_size": 32753,
+      "offset": 2424958829
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 132429,
+      "comp_size": 40253,
+      "offset": 2424991704
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 132652,
+      "comp_size": 33872,
+      "offset": 2425032082
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_moana_yolo3.txt",
+      "size": 113073,
+      "comp_size": 38433,
+      "offset": 2425066073
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_moana_ssd512.txt",
+      "size": 112908,
+      "comp_size": 38386,
+      "offset": 2425104624
+    },
+    {
+      "name": "train/S04/c021/mtsc/mtsc_tc_yolo3.txt",
+      "size": 102828,
+      "comp_size": 28529,
+      "offset": 2425143129
+    },
+    {
+      "name": "train/S04/c024/det/det_yolo3.txt",
+      "size": 4684,
+      "comp_size": 1947,
+      "offset": 2518641157
+    },
+    {
+      "name": "train/S04/c024/det/det_ssd512.txt",
+      "size": 4789,
+      "comp_size": 1908,
+      "offset": 2518643214
+    },
+    {
+      "name": "train/S04/c024/det/det_mask_rcnn.txt",
+      "size": 5051,
+      "comp_size": 2028,
+      "offset": 2518645233
+    },
+    {
+      "name": "train/S04/c024/segm/segm_mask_rcnn.txt",
+      "size": 184830,
+      "comp_size": 31416,
+      "offset": 2518653126
+    },
+    {
+      "name": "train/S04/c024/calibration.txt",
+      "size": 231,
+      "comp_size": 161,
+      "offset": 2518684658
+    },
+    {
+      "name": "train/S04/c024/gt/gt.txt",
+      "size": 1697,
+      "comp_size": 570,
+      "offset": 2518685007
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 3863,
+      "comp_size": 1594,
+      "offset": 2518685761
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_tc_ssd512.txt",
+      "size": 0,
+      "comp_size": 2,
+      "offset": 2518687477
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 3295,
+      "comp_size": 1302,
+      "offset": 2518687595
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 2801,
+      "comp_size": 1108,
+      "offset": 2518689018
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 3094,
+      "comp_size": 1222,
+      "offset": 2518690248
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 501,
+      "comp_size": 216,
+      "offset": 2518691595
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_moana_yolo3.txt",
+      "size": 4244,
+      "comp_size": 1739,
+      "offset": 2518691930
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_moana_ssd512.txt",
+      "size": 3351,
+      "comp_size": 1349,
+      "offset": 2518693787
+    },
+    {
+      "name": "train/S04/c024/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1110,
+      "comp_size": 443,
+      "offset": 2518695255
+    },
+    {
+      "name": "train/S04/c031/det/det_yolo3.txt",
+      "size": 1135730,
+      "comp_size": 371206,
+      "offset": 2574726552
+    },
+    {
+      "name": "train/S04/c031/det/det_ssd512.txt",
+      "size": 1457465,
+      "comp_size": 426219,
+      "offset": 2575097868
+    },
+    {
+      "name": "train/S04/c031/det/det_mask_rcnn.txt",
+      "size": 1970100,
+      "comp_size": 607233,
+      "offset": 2575524198
+    },
+    {
+      "name": "train/S04/c031/segm/segm_mask_rcnn.txt",
+      "size": 8917304,
+      "comp_size": 1734718,
+      "offset": 2576134168
+    },
+    {
+      "name": "train/S04/c031/calibration.txt",
+      "size": 228,
+      "comp_size": 159,
+      "offset": 2577869002
+    },
+    {
+      "name": "train/S04/c031/gt/gt.txt",
+      "size": 6849,
+      "comp_size": 2137,
+      "offset": 2577869349
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1332513,
+      "comp_size": 390851,
+      "offset": 2577871670
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_tc_ssd512.txt",
+      "size": 1005286,
+      "comp_size": 157404,
+      "offset": 2578262643
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 936390,
+      "comp_size": 258448,
+      "offset": 2578420163
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 1162747,
+      "comp_size": 298992,
+      "offset": 2578678732
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 1525397,
+      "comp_size": 399431,
+      "offset": 2578977846
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 1426953,
+      "comp_size": 223262,
+      "offset": 2579377402
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_moana_yolo3.txt",
+      "size": 974570,
+      "comp_size": 305585,
+      "offset": 2579600783
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_moana_ssd512.txt",
+      "size": 956543,
+      "comp_size": 273562,
+      "offset": 2579906486
+    },
+    {
+      "name": "train/S04/c031/mtsc/mtsc_tc_yolo3.txt",
+      "size": 939773,
+      "comp_size": 138176,
+      "offset": 2580180167
+    },
+    {
+      "name": "train/S04/c020/det/det_yolo3.txt",
+      "size": 178365,
+      "comp_size": 60626,
+      "offset": 2640751690
+    },
+    {
+      "name": "train/S04/c020/det/det_ssd512.txt",
+      "size": 248081,
+      "comp_size": 83532,
+      "offset": 2640812426
+    },
+    {
+      "name": "train/S04/c020/det/det_mask_rcnn.txt",
+      "size": 249731,
+      "comp_size": 82489,
+      "offset": 2640896069
+    },
+    {
+      "name": "train/S04/c020/segm/segm_mask_rcnn.txt",
+      "size": 1508087,
+      "comp_size": 323849,
+      "offset": 2640992835
+    },
+    {
+      "name": "train/S04/c020/calibration.txt",
+      "size": 228,
+      "comp_size": 160,
+      "offset": 2641316800
+    },
+    {
+      "name": "train/S04/c020/gt/gt.txt",
+      "size": 16054,
+      "comp_size": 4561,
+      "offset": 2641317148
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 176574,
+      "comp_size": 57290,
+      "offset": 2641321893
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_tc_ssd512.txt",
+      "size": 179743,
+      "comp_size": 43777,
+      "offset": 2641379305
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 146626,
+      "comp_size": 44523,
+      "offset": 2641423198
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 184291,
+      "comp_size": 53699,
+      "offset": 2641467842
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 195159,
+      "comp_size": 56624,
+      "offset": 2641521663
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 166913,
+      "comp_size": 33993,
+      "offset": 2641578412
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_moana_yolo3.txt",
+      "size": 159427,
+      "comp_size": 53141,
+      "offset": 2641612524
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_moana_ssd512.txt",
+      "size": 170268,
+      "comp_size": 55693,
+      "offset": 2641665783
+    },
+    {
+      "name": "train/S04/c020/mtsc/mtsc_tc_yolo3.txt",
+      "size": 147725,
+      "comp_size": 38939,
+      "offset": 2641721595
+    },
+    {
+      "name": "train/S04/c039/det/det_yolo3.txt",
+      "size": 52891,
+      "comp_size": 19799,
+      "offset": 2760091803
+    },
+    {
+      "name": "train/S04/c039/det/det_ssd512.txt",
+      "size": 89778,
+      "comp_size": 31885,
+      "offset": 2760111712
+    },
+    {
+      "name": "train/S04/c039/det/det_mask_rcnn.txt",
+      "size": 114595,
+      "comp_size": 40445,
+      "offset": 2760143708
+    },
+    {
+      "name": "train/S04/c039/segm/segm_mask_rcnn.txt",
+      "size": 1198533,
+      "comp_size": 261869,
+      "offset": 2760188264
+    },
+    {
+      "name": "train/S04/c039/calibration.txt",
+      "size": 229,
+      "comp_size": 157,
+      "offset": 2760450249
+    },
+    {
+      "name": "train/S04/c039/gt/gt.txt",
+      "size": 14973,
+      "comp_size": 4275,
+      "offset": 2760450594
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 65340,
+      "comp_size": 23368,
+      "offset": 2760455053
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_tc_ssd512.txt",
+      "size": 60171,
+      "comp_size": 18507,
+      "offset": 2760478543
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 41930,
+      "comp_size": 14354,
+      "offset": 2760497166
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 66769,
+      "comp_size": 21042,
+      "offset": 2760511641
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 68684,
+      "comp_size": 22422,
+      "offset": 2760532805
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 46711,
+      "comp_size": 15310,
+      "offset": 2760555352
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_moana_yolo3.txt",
+      "size": 47787,
+      "comp_size": 17480,
+      "offset": 2760570781
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_moana_ssd512.txt",
+      "size": 73824,
+      "comp_size": 25696,
+      "offset": 2760588379
+    },
+    {
+      "name": "train/S04/c039/mtsc/mtsc_tc_yolo3.txt",
+      "size": 37251,
+      "comp_size": 12609,
+      "offset": 2760614194
+    },
+    {
+      "name": "train/S04/c029/det/det_yolo3.txt",
+      "size": 231704,
+      "comp_size": 82004,
+      "offset": 2792496282
+    },
+    {
+      "name": "train/S04/c029/det/det_ssd512.txt",
+      "size": 287132,
+      "comp_size": 101242,
+      "offset": 2792578396
+    },
+    {
+      "name": "train/S04/c029/det/det_mask_rcnn.txt",
+      "size": 423765,
+      "comp_size": 148663,
+      "offset": 2792679749
+    },
+    {
+      "name": "train/S04/c029/segm/segm_mask_rcnn.txt",
+      "size": 3157001,
+      "comp_size": 1064670,
+      "offset": 2792844422
+    },
+    {
+      "name": "train/S04/c029/calibration.txt",
+      "size": 232,
+      "comp_size": 162,
+      "offset": 2793909208
+    },
+    {
+      "name": "train/S04/c029/gt/gt.txt",
+      "size": 32473,
+      "comp_size": 8498,
+      "offset": 2793909558
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 189702,
+      "comp_size": 65703,
+      "offset": 2793918240
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_tc_ssd512.txt",
+      "size": 191693,
+      "comp_size": 57575,
+      "offset": 2793984065
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 190850,
+      "comp_size": 60313,
+      "offset": 2794041756
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 220027,
+      "comp_size": 69042,
+      "offset": 2794102190
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 266336,
+      "comp_size": 83824,
+      "offset": 2794171354
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 200303,
+      "comp_size": 61436,
+      "offset": 2794255303
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_moana_yolo3.txt",
+      "size": 198758,
+      "comp_size": 68734,
+      "offset": 2794316858
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_moana_ssd512.txt",
+      "size": 189774,
+      "comp_size": 66008,
+      "offset": 2794385710
+    },
+    {
+      "name": "train/S04/c029/mtsc/mtsc_tc_yolo3.txt",
+      "size": 190332,
+      "comp_size": 58386,
+      "offset": 2794451837
+    },
+    {
+      "name": "train/S03/c012/det/det_yolo3.txt",
+      "size": 558458,
+      "comp_size": 163612,
+      "offset": 3110249315
+    },
+    {
+      "name": "train/S03/c012/det/det_ssd512.txt",
+      "size": 427344,
+      "comp_size": 128084,
+      "offset": 3110413037
+    },
+    {
+      "name": "train/S03/c012/det/det_mask_rcnn.txt",
+      "size": 810128,
+      "comp_size": 241170,
+      "offset": 3110541232
+    },
+    {
+      "name": "train/S03/c012/segm/segm_mask_rcnn.txt",
+      "size": 8210009,
+      "comp_size": 1624355,
+      "offset": 3110790057
+    },
+    {
+      "name": "train/S03/c012/calibration.txt",
+      "size": 230,
+      "comp_size": 161,
+      "offset": 3112414528
+    },
+    {
+      "name": "train/S03/c012/gt/gt.txt",
+      "size": 77103,
+      "comp_size": 7546,
+      "offset": 3112414877
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 484359,
+      "comp_size": 141918,
+      "offset": 3112422607
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_tc_ssd512.txt",
+      "size": 323334,
+      "comp_size": 71160,
+      "offset": 3112564647
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 467036,
+      "comp_size": 119068,
+      "offset": 3112635923
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 325189,
+      "comp_size": 82875,
+      "offset": 3112755112
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 541349,
+      "comp_size": 142140,
+      "offset": 3112838109
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 506448,
+      "comp_size": 108850,
+      "offset": 3112980374
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_moana_yolo3.txt",
+      "size": 485840,
+      "comp_size": 142165,
+      "offset": 3113089343
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_moana_ssd512.txt",
+      "size": 355141,
+      "comp_size": 105257,
+      "offset": 3113231626
+    },
+    {
+      "name": "train/S03/c012/mtsc/mtsc_tc_yolo3.txt",
+      "size": 471655,
+      "comp_size": 73788,
+      "offset": 3113337002
+    },
+    {
+      "name": "train/S03/c015/det/det_yolo3.txt",
+      "size": 388572,
+      "comp_size": 125229,
+      "offset": 3262952626
+    },
+    {
+      "name": "train/S03/c015/det/det_ssd512.txt",
+      "size": 370120,
+      "comp_size": 117986,
+      "offset": 3263077965
+    },
+    {
+      "name": "train/S03/c015/det/det_mask_rcnn.txt",
+      "size": 949811,
+      "comp_size": 302534,
+      "offset": 3263196062
+    },
+    {
+      "name": "train/S03/c015/segm/segm_mask_rcnn.txt",
+      "size": 4767939,
+      "comp_size": 1025845,
+      "offset": 3263513224
+    },
+    {
+      "name": "train/S03/c015/calibration.txt",
+      "size": 229,
+      "comp_size": 160,
+      "offset": 3264539185
+    },
+    {
+      "name": "train/S03/c015/gt/gt.txt",
+      "size": 691,
+      "comp_size": 235,
+      "offset": 3264539533
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 549650,
+      "comp_size": 168444,
+      "offset": 3264539952
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_tc_ssd512.txt",
+      "size": 308586,
+      "comp_size": 55331,
+      "offset": 3264708518
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 320537,
+      "comp_size": 90043,
+      "offset": 3264763965
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 308838,
+      "comp_size": 82989,
+      "offset": 3264854129
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 662506,
+      "comp_size": 183184,
+      "offset": 3264937240
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 556600,
+      "comp_size": 118312,
+      "offset": 3265120549
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_moana_yolo3.txt",
+      "size": 352683,
+      "comp_size": 111540,
+      "offset": 3265238980
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_moana_ssd512.txt",
+      "size": 346324,
+      "comp_size": 106017,
+      "offset": 3265350638
+    },
+    {
+      "name": "train/S03/c015/mtsc/mtsc_tc_yolo3.txt",
+      "size": 319420,
+      "comp_size": 50343,
+      "offset": 3265456774
+    },
+    {
+      "name": "train/S03/c010/det/det_yolo3.txt",
+      "size": 716729,
+      "comp_size": 244124,
+      "offset": 3409119264
+    },
+    {
+      "name": "train/S03/c010/det/det_ssd512.txt",
+      "size": 478257,
+      "comp_size": 163176,
+      "offset": 3409363498
+    },
+    {
+      "name": "train/S03/c010/det/det_mask_rcnn.txt",
+      "size": 1063149,
+      "comp_size": 360815,
+      "offset": 3409526785
+    },
+    {
+      "name": "train/S03/c010/segm/segm_mask_rcnn.txt",
+      "size": 5998328,
+      "comp_size": 1604461,
+      "offset": 3409909388
+    },
+    {
+      "name": "train/S03/c010/calibration.txt",
+      "size": 231,
+      "comp_size": 163,
+      "offset": 3411513965
+    },
+    {
+      "name": "train/S03/c010/gt/gt.txt",
+      "size": 75777,
+      "comp_size": 18992,
+      "offset": 3411514316
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 627515,
+      "comp_size": 207060,
+      "offset": 3411533492
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_tc_ssd512.txt",
+      "size": 355879,
+      "comp_size": 89243,
+      "offset": 3411740674
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 599392,
+      "comp_size": 178471,
+      "offset": 3411830033
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 366537,
+      "comp_size": 110189,
+      "offset": 3412008625
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 654993,
+      "comp_size": 194272,
+      "offset": 3412118936
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 577038,
+      "comp_size": 132907,
+      "offset": 3412313333
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_moana_yolo3.txt",
+      "size": 663035,
+      "comp_size": 217949,
+      "offset": 3412446359
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_moana_ssd512.txt",
+      "size": 386146,
+      "comp_size": 128481,
+      "offset": 3412664426
+    },
+    {
+      "name": "train/S03/c010/mtsc/mtsc_tc_yolo3.txt",
+      "size": 579964,
+      "comp_size": 156323,
+      "offset": 3412793026
+    },
+    {
+      "name": "train/S03/c013/det/det_yolo3.txt",
+      "size": 70519,
+      "comp_size": 26638,
+      "offset": 3677795572
+    },
+    {
+      "name": "train/S03/c013/det/det_ssd512.txt",
+      "size": 61527,
+      "comp_size": 23410,
+      "offset": 3677822320
+    },
+    {
+      "name": "train/S03/c013/det/det_mask_rcnn.txt",
+      "size": 371316,
+      "comp_size": 119505,
+      "offset": 3677845841
+    },
+    {
+      "name": "train/S03/c013/segm/segm_mask_rcnn.txt",
+      "size": 1843020,
+      "comp_size": 406488,
+      "offset": 3677989065
+    },
+    {
+      "name": "train/S03/c013/calibration.txt",
+      "size": 229,
+      "comp_size": 159,
+      "offset": 3678395669
+    },
+    {
+      "name": "train/S03/c013/gt/gt.txt",
+      "size": 36998,
+      "comp_size": 10749,
+      "offset": 3678396016
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 301639,
+      "comp_size": 93818,
+      "offset": 3678406949
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_tc_ssd512.txt",
+      "size": 43463,
+      "comp_size": 15453,
+      "offset": 3678500889
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 57225,
+      "comp_size": 19773,
+      "offset": 3678516458
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 45882,
+      "comp_size": 16256,
+      "offset": 3678536352
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 277443,
+      "comp_size": 75963,
+      "offset": 3678552730
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 279062,
+      "comp_size": 65865,
+      "offset": 3678628818
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_moana_yolo3.txt",
+      "size": 67232,
+      "comp_size": 24526,
+      "offset": 3678694802
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_moana_ssd512.txt",
+      "size": 52959,
+      "comp_size": 19817,
+      "offset": 3678719446
+    },
+    {
+      "name": "train/S03/c013/mtsc/mtsc_tc_yolo3.txt",
+      "size": 55272,
+      "comp_size": 19136,
+      "offset": 3678739382
+    },
+    {
+      "name": "train/S03/c011/det/det_yolo3.txt",
+      "size": 1376805,
+      "comp_size": 452629,
+      "offset": 3829361483
+    },
+    {
+      "name": "train/S03/c011/det/det_ssd512.txt",
+      "size": 1694462,
+      "comp_size": 539709,
+      "offset": 3829814222
+    },
+    {
+      "name": "train/S03/c011/det/det_mask_rcnn.txt",
+      "size": 3156572,
+      "comp_size": 1043591,
+      "offset": 3830354042
+    },
+    {
+      "name": "train/S03/c011/segm/segm_mask_rcnn.txt",
+      "size": 18431245,
+      "comp_size": 4772805,
+      "offset": 3831415785
+    },
+    {
+      "name": "train/S03/c011/calibration.txt",
+      "size": 238,
+      "comp_size": 166,
+      "offset": 3836188706
+    },
+    {
+      "name": "train/S03/c011/gt/gt.txt",
+      "size": 44249,
+      "comp_size": 12377,
+      "offset": 3836189060
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1544763,
+      "comp_size": 493437,
+      "offset": 3836201621
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_tc_ssd512.txt",
+      "size": 1003090,
+      "comp_size": 208202,
+      "offset": 3836695180
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 1154390,
+      "comp_size": 323192,
+      "offset": 3836903498
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 1213662,
+      "comp_size": 322770,
+      "offset": 3837226811
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 2231448,
+      "comp_size": 628246,
+      "offset": 3837549703
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 1713298,
+      "comp_size": 441570,
+      "offset": 3838178074
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_moana_yolo3.txt",
+      "size": 1181315,
+      "comp_size": 374953,
+      "offset": 3838619763
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_moana_ssd512.txt",
+      "size": 962821,
+      "comp_size": 299604,
+      "offset": 3838994834
+    },
+    {
+      "name": "train/S03/c011/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1171515,
+      "comp_size": 234623,
+      "offset": 3839294557
+    },
+    {
+      "name": "train/S03/c014/det/det_yolo3.txt",
+      "size": 302753,
+      "comp_size": 106023,
+      "offset": 3996613093
+    },
+    {
+      "name": "train/S03/c014/det/det_ssd512.txt",
+      "size": 298506,
+      "comp_size": 104976,
+      "offset": 3996719226
+    },
+    {
+      "name": "train/S03/c014/det/det_mask_rcnn.txt",
+      "size": 369762,
+      "comp_size": 128019,
+      "offset": 3996824313
+    },
+    {
+      "name": "train/S03/c014/calibration.txt",
+      "size": 238,
+      "comp_size": 163,
+      "offset": 3996969980
+    },
+    {
+      "name": "train/S03/c014/segm/segm_mask_rcnn.txt",
+      "size": 2490798,
+      "comp_size": 692893,
+      "offset": 3996970333
+    },
+    {
+      "name": "train/S03/c014/gt/gt.txt",
+      "size": 127101,
+      "comp_size": 28502,
+      "offset": 3997663422
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 284755,
+      "comp_size": 97823,
+      "offset": 3997692108
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_tc_ssd512.txt",
+      "size": 215861,
+      "comp_size": 68925,
+      "offset": 3997790053
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 252457,
+      "comp_size": 79272,
+      "offset": 3997859094
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 216495,
+      "comp_size": 68621,
+      "offset": 3997938487
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 269969,
+      "comp_size": 84693,
+      "offset": 3998007230
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 258053,
+      "comp_size": 82032,
+      "offset": 3998092048
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_moana_yolo3.txt",
+      "size": 276282,
+      "comp_size": 94884,
+      "offset": 3998174199
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_moana_ssd512.txt",
+      "size": 236130,
+      "comp_size": 81796,
+      "offset": 3998269201
+    },
+    {
+      "name": "train/S03/c014/mtsc/mtsc_tc_yolo3.txt",
+      "size": 247534,
+      "comp_size": 78303,
+      "offset": 3998351116
+    },
+    {
+      "name": "validation/S02/c007/det/det_yolo3.txt",
+      "size": 291343,
+      "comp_size": 102309,
+      "offset": 4265580189
+    },
+    {
+      "name": "validation/S02/c007/det/det_ssd512.txt",
+      "size": 362598,
+      "comp_size": 125508,
+      "offset": 4265682613
+    },
+    {
+      "name": "validation/S02/c007/det/det_mask_rcnn.txt",
+      "size": 404266,
+      "comp_size": 137353,
+      "offset": 4265808237
+    },
+    {
+      "name": "validation/S02/c007/segm/segm_mask_rcnn.txt",
+      "size": 4166839,
+      "comp_size": 940933,
+      "offset": 4265947911
+    },
+    {
+      "name": "validation/S02/c007/calibration.txt",
+      "size": 230,
+      "comp_size": 162,
+      "offset": 4266888965
+    },
+    {
+      "name": "validation/S02/c007/gt/gt.txt",
+      "size": 153578,
+      "comp_size": 31197,
+      "offset": 4266889325
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 316767,
+      "comp_size": 107047,
+      "offset": 4266920716
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_tc_ssd512.txt",
+      "size": 228799,
+      "comp_size": 70190,
+      "offset": 4267027890
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 233218,
+      "comp_size": 73325,
+      "offset": 4267098201
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 239517,
+      "comp_size": 75072,
+      "offset": 4267171652
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 287354,
+      "comp_size": 88846,
+      "offset": 4267246851
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 264222,
+      "comp_size": 77534,
+      "offset": 4267335827
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_moana_yolo3.txt",
+      "size": 258729,
+      "comp_size": 88416,
+      "offset": 4267413485
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_moana_ssd512.txt",
+      "size": 266895,
+      "comp_size": 91453,
+      "offset": 4267502024
+    },
+    {
+      "name": "validation/S02/c007/mtsc/mtsc_tc_yolo3.txt",
+      "size": 207689,
+      "comp_size": 63705,
+      "offset": 4267593601
+    },
+    {
+      "name": "validation/S02/c006/det/det_yolo3.txt",
+      "size": 1619083,
+      "comp_size": 554766,
+      "offset": 4573366178
+    },
+    {
+      "name": "validation/S02/c006/det/det_ssd512.txt",
+      "size": 1979724,
+      "comp_size": 674491,
+      "offset": 4573921059
+    },
+    {
+      "name": "validation/S02/c006/det/det_mask_rcnn.txt",
+      "size": 3869892,
+      "comp_size": 1304150,
+      "offset": 4574595666
+    },
+    {
+      "name": "validation/S02/c006/segm/segm_mask_rcnn.txt",
+      "size": 15601865,
+      "comp_size": 4662069,
+      "offset": 4575914542
+    },
+    {
+      "name": "validation/S02/c006/calibration.txt",
+      "size": 228,
+      "comp_size": 161,
+      "offset": 4580576732
+    },
+    {
+      "name": "validation/S02/c006/gt/gt.txt",
+      "size": 183854,
+      "comp_size": 48399,
+      "offset": 4580577091
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 2184317,
+      "comp_size": 716546,
+      "offset": 4580625684
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_tc_ssd512.txt",
+      "size": 1495142,
+      "comp_size": 401053,
+      "offset": 4581342357
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 1413622,
+      "comp_size": 418226,
+      "offset": 4581743531
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 1672144,
+      "comp_size": 494779,
+      "offset": 4582161883
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 3132266,
+      "comp_size": 908802,
+      "offset": 4582656789
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 2145009,
+      "comp_size": 563160,
+      "offset": 4583565721
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_moana_yolo3.txt",
+      "size": 1569029,
+      "comp_size": 511495,
+      "offset": 4584129005
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_moana_ssd512.txt",
+      "size": 1488563,
+      "comp_size": 490633,
+      "offset": 4584640623
+    },
+    {
+      "name": "validation/S02/c006/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1411585,
+      "comp_size": 381871,
+      "offset": 4585131380
+    },
+    {
+      "name": "validation/S02/c008/calibration.txt",
+      "size": 231,
+      "comp_size": 163,
+      "offset": 4817654400
+    },
+    {
+      "name": "validation/S02/c008/det/det_yolo3.txt",
+      "size": 898172,
+      "comp_size": 307256,
+      "offset": 4817654762
+    },
+    {
+      "name": "validation/S02/c008/det/det_ssd512.txt",
+      "size": 1137799,
+      "comp_size": 372895,
+      "offset": 4817962133
+    },
+    {
+      "name": "validation/S02/c008/det/det_mask_rcnn.txt",
+      "size": 1548761,
+      "comp_size": 525997,
+      "offset": 4818335144
+    },
+    {
+      "name": "validation/S02/c008/segm/segm_mask_rcnn.txt",
+      "size": 11113999,
+      "comp_size": 3170761,
+      "offset": 4818861347
+    },
+    {
+      "name": "validation/S02/c008/gt/gt.txt",
+      "size": 124801,
+      "comp_size": 26066,
+      "offset": 4822032314
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 905260,
+      "comp_size": 299746,
+      "offset": 4822058574
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_tc_ssd512.txt",
+      "size": 627742,
+      "comp_size": 153987,
+      "offset": 4822358447
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 747977,
+      "comp_size": 224004,
+      "offset": 4822512555
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 738543,
+      "comp_size": 217175,
+      "offset": 4822736685
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 1000347,
+      "comp_size": 300380,
+      "offset": 4822953987
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 897584,
+      "comp_size": 204266,
+      "offset": 4823254497
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_moana_yolo3.txt",
+      "size": 771717,
+      "comp_size": 255842,
+      "offset": 4823458887
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_moana_ssd512.txt",
+      "size": 683426,
+      "comp_size": 225863,
+      "offset": 4823714852
+    },
+    {
+      "name": "validation/S02/c008/mtsc/mtsc_tc_yolo3.txt",
+      "size": 731485,
+      "comp_size": 177793,
+      "offset": 4823940839
+    },
+    {
+      "name": "validation/S02/c009/det/det_yolo3.txt",
+      "size": 1562696,
+      "comp_size": 540718,
+      "offset": 5038660828
+    },
+    {
+      "name": "validation/S02/c009/det/det_ssd512.txt",
+      "size": 1217846,
+      "comp_size": 415604,
+      "offset": 5039201661
+    },
+    {
+      "name": "validation/S02/c009/det/det_mask_rcnn.txt",
+      "size": 2464483,
+      "comp_size": 837383,
+      "offset": 5039617381
+    },
+    {
+      "name": "validation/S02/c009/segm/segm_mask_rcnn.txt",
+      "size": 12329398,
+      "comp_size": 3606220,
+      "offset": 5040462371
+    },
+    {
+      "name": "validation/S02/c009/calibration.txt",
+      "size": 226,
+      "comp_size": 160,
+      "offset": 5044068712
+    },
+    {
+      "name": "validation/S02/c009/gt/gt.txt",
+      "size": 299700,
+      "comp_size": 69432,
+      "offset": 5044069070
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1615115,
+      "comp_size": 538556,
+      "offset": 5044138696
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_tc_ssd512.txt",
+      "size": 807342,
+      "comp_size": 248802,
+      "offset": 5044677379
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 1338336,
+      "comp_size": 406128,
+      "offset": 5044926302
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 872980,
+      "comp_size": 270805,
+      "offset": 5045332556
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 1887526,
+      "comp_size": 564718,
+      "offset": 5045603488
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 1599418,
+      "comp_size": 444313,
+      "offset": 5046168336
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_moana_yolo3.txt",
+      "size": 1482049,
+      "comp_size": 492967,
+      "offset": 5046612773
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_moana_ssd512.txt",
+      "size": 917435,
+      "comp_size": 312275,
+      "offset": 5047105863
+    },
+    {
+      "name": "validation/S02/c009/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1342454,
+      "comp_size": 381185,
+      "offset": 5047418262
+    },
+    {
+      "name": "validation/S05/c018/calibration.txt",
+      "size": 230,
+      "comp_size": 159,
+      "offset": 5662704426
+    },
+    {
+      "name": "validation/S05/c018/det/det_yolo3.txt",
+      "size": 191100,
+      "comp_size": 70886,
+      "offset": 5662704784
+    },
+    {
+      "name": "validation/S05/c018/det/det_ssd512.txt",
+      "size": 195732,
+      "comp_size": 71715,
+      "offset": 5662775785
+    },
+    {
+      "name": "validation/S05/c018/det/det_mask_rcnn.txt",
+      "size": 240023,
+      "comp_size": 85950,
+      "offset": 5662847616
+    },
+    {
+      "name": "validation/S05/c018/segm/segm_mask_rcnn.txt",
+      "size": 2481553,
+      "comp_size": 617219,
+      "offset": 5662933772
+    },
+    {
+      "name": "validation/S05/c018/gt/gt.txt",
+      "size": 95564,
+      "comp_size": 27365,
+      "offset": 5663551197
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 192428,
+      "comp_size": 69335,
+      "offset": 5663578756
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_tc_ssd512.txt",
+      "size": 134301,
+      "comp_size": 45875,
+      "offset": 5663648218
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 156664,
+      "comp_size": 53339,
+      "offset": 5663694214
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 141109,
+      "comp_size": 48121,
+      "offset": 5663747679
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 176082,
+      "comp_size": 59246,
+      "offset": 5663795927
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 163065,
+      "comp_size": 55261,
+      "offset": 5663855303
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_moana_yolo3.txt",
+      "size": 177524,
+      "comp_size": 64015,
+      "offset": 5663910688
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_moana_ssd512.txt",
+      "size": 160216,
+      "comp_size": 57908,
+      "offset": 5663974826
+    },
+    {
+      "name": "validation/S05/c018/mtsc/mtsc_tc_yolo3.txt",
+      "size": 156273,
+      "comp_size": 53187,
+      "offset": 5664032858
+    },
+    {
+      "name": "validation/S05/c036/det/det_yolo3.txt",
+      "size": 3109807,
+      "comp_size": 1068736,
+      "offset": 6113284639
+    },
+    {
+      "name": "validation/S05/c036/det/det_ssd512.txt",
+      "size": 2619987,
+      "comp_size": 910803,
+      "offset": 6114353490
+    },
+    {
+      "name": "validation/S05/c036/det/det_mask_rcnn.txt",
+      "size": 5150305,
+      "comp_size": 1761322,
+      "offset": 6115264409
+    },
+    {
+      "name": "validation/S05/c036/segm/segm_mask_rcnn.txt",
+      "size": 38254703,
+      "comp_size": 11558678,
+      "offset": 6117030774
+    },
+    {
+      "name": "validation/S05/c036/calibration.txt",
+      "size": 229,
+      "comp_size": 162,
+      "offset": 6128589573
+    },
+    {
+      "name": "validation/S05/c036/gt/gt.txt",
+      "size": 417411,
+      "comp_size": 104868,
+      "offset": 6128589933
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 3378730,
+      "comp_size": 1121480,
+      "offset": 6128694995
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_tc_ssd512.txt",
+      "size": 1718256,
+      "comp_size": 525876,
+      "offset": 6129816602
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 2699055,
+      "comp_size": 817656,
+      "offset": 6130342599
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 2000924,
+      "comp_size": 616202,
+      "offset": 6131160381
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 3772794,
+      "comp_size": 1132488,
+      "offset": 6131776710
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 3318629,
+      "comp_size": 920735,
+      "offset": 6132909328
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_moana_yolo3.txt",
+      "size": 2802087,
+      "comp_size": 929959,
+      "offset": 6133830187
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_moana_ssd512.txt",
+      "size": 1885837,
+      "comp_size": 636713,
+      "offset": 6134760269
+    },
+    {
+      "name": "validation/S05/c036/mtsc/mtsc_tc_yolo3.txt",
+      "size": 2626686,
+      "comp_size": 765858,
+      "offset": 6135397106
+    },
+    {
+      "name": "validation/S05/c022/det/det_yolo3.txt",
+      "size": 2472232,
+      "comp_size": 835669,
+      "offset": 6775225080
+    },
+    {
+      "name": "validation/S05/c022/det/det_ssd512.txt",
+      "size": 2545761,
+      "comp_size": 855996,
+      "offset": 6776060864
+    },
+    {
+      "name": "validation/S05/c022/det/det_mask_rcnn.txt",
+      "size": 3536864,
+      "comp_size": 1193543,
+      "offset": 6776916976
+    },
+    {
+      "name": "validation/S05/c022/segm/segm_mask_rcnn.txt",
+      "size": 20721370,
+      "comp_size": 5903000,
+      "offset": 6778127390
+    },
+    {
+      "name": "validation/S05/c022/calibration.txt",
+      "size": 229,
+      "comp_size": 160,
+      "offset": 6784030511
+    },
+    {
+      "name": "validation/S05/c022/gt/gt.txt",
+      "size": 456166,
+      "comp_size": 105859,
+      "offset": 6784030869
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 2218519,
+      "comp_size": 726534,
+      "offset": 6784136922
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_tc_ssd512.txt",
+      "size": 1898515,
+      "comp_size": 472001,
+      "offset": 6784863583
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 2131498,
+      "comp_size": 628667,
+      "offset": 6785335705
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 1957325,
+      "comp_size": 579294,
+      "offset": 6785964498
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 2714219,
+      "comp_size": 794750,
+      "offset": 6786543919
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 2277257,
+      "comp_size": 492098,
+      "offset": 6787338799
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_moana_yolo3.txt",
+      "size": 2248838,
+      "comp_size": 732495,
+      "offset": 6787831021
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_moana_ssd512.txt",
+      "size": 2092951,
+      "comp_size": 688049,
+      "offset": 6788563639
+    },
+    {
+      "name": "validation/S05/c022/mtsc/mtsc_tc_yolo3.txt",
+      "size": 2041667,
+      "comp_size": 481526,
+      "offset": 6789251812
+    },
+    {
+      "name": "validation/S05/c027/det/det_yolo3.txt",
+      "size": 3435066,
+      "comp_size": 1183268,
+      "offset": 7417701488
+    },
+    {
+      "name": "validation/S05/c027/det/det_ssd512.txt",
+      "size": 5601564,
+      "comp_size": 1909894,
+      "offset": 7418884871
+    },
+    {
+      "name": "validation/S05/c027/det/det_mask_rcnn.txt",
+      "size": 7416546,
+      "comp_size": 2522679,
+      "offset": 7420794881
+    },
+    {
+      "name": "validation/S05/c027/segm/segm_mask_rcnn.txt",
+      "size": 46092582,
+      "comp_size": 15198046,
+      "offset": 7423333975
+    },
+    {
+      "name": "validation/S05/c027/calibration.txt",
+      "size": 231,
+      "comp_size": 162,
+      "offset": 7438532142
+    },
+    {
+      "name": "validation/S05/c027/gt/gt.txt",
+      "size": 407226,
+      "comp_size": 105088,
+      "offset": 7438532502
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 4551984,
+      "comp_size": 1501039,
+      "offset": 7438637784
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_tc_ssd512.txt",
+      "size": 3761934,
+      "comp_size": 976220,
+      "offset": 7440138950
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 3004521,
+      "comp_size": 899450,
+      "offset": 7441115291
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 4221291,
+      "comp_size": 1251361,
+      "offset": 7442014867
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 5811942,
+      "comp_size": 1717825,
+      "offset": 7443266355
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 4867513,
+      "comp_size": 1219392,
+      "offset": 7444984310
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_moana_yolo3.txt",
+      "size": 3225557,
+      "comp_size": 1062850,
+      "offset": 7446203826
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_moana_ssd512.txt",
+      "size": 3528450,
+      "comp_size": 1162128,
+      "offset": 7447266799
+    },
+    {
+      "name": "validation/S05/c027/mtsc/mtsc_tc_yolo3.txt",
+      "size": 3011142,
+      "comp_size": 834704,
+      "offset": 7448429051
+    },
+    {
+      "name": "validation/S05/c028/det/det_yolo3.txt",
+      "size": 4356337,
+      "comp_size": 1482919,
+      "offset": 7901701581
+    },
+    {
+      "name": "validation/S05/c028/det/det_ssd512.txt",
+      "size": 4383257,
+      "comp_size": 1480295,
+      "offset": 7903184615
+    },
+    {
+      "name": "validation/S05/c028/det/det_mask_rcnn.txt",
+      "size": 9004858,
+      "comp_size": 3009940,
+      "offset": 7904665026
+    },
+    {
+      "name": "validation/S05/c028/segm/segm_mask_rcnn.txt",
+      "size": 50296966,
+      "comp_size": 14909782,
+      "offset": 7907682133
+    },
+    {
+      "name": "validation/S05/c028/calibration.txt",
+      "size": 229,
+      "comp_size": 160,
+      "offset": 7922592036
+    },
+    {
+      "name": "validation/S05/c028/gt/gt.txt",
+      "size": 300369,
+      "comp_size": 70149,
+      "offset": 7922592394
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 4984316,
+      "comp_size": 1615178,
+      "offset": 7922662737
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_tc_ssd512.txt",
+      "size": 3313336,
+      "comp_size": 818366,
+      "offset": 7924278042
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 3763147,
+      "comp_size": 1112427,
+      "offset": 7925096529
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 3423263,
+      "comp_size": 998157,
+      "offset": 7926209082
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 6709477,
+      "comp_size": 1948365,
+      "offset": 7927207366
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 5110536,
+      "comp_size": 1266178,
+      "offset": 7929155861
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_moana_yolo3.txt",
+      "size": 4041374,
+      "comp_size": 1325460,
+      "offset": 7930422163
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_moana_ssd512.txt",
+      "size": 85812,
+      "comp_size": 29541,
+      "offset": 7931747746
+    },
+    {
+      "name": "validation/S05/c028/mtsc/mtsc_tc_yolo3.txt",
+      "size": 3772594,
+      "comp_size": 967655,
+      "offset": 7931777411
+    },
+    {
+      "name": "validation/S05/c019/det/det_yolo3.txt",
+      "size": 62699,
+      "comp_size": 24114,
+      "offset": 8433520401
+    },
+    {
+      "name": "validation/S05/c019/det/det_ssd512.txt",
+      "size": 73587,
+      "comp_size": 27578,
+      "offset": 8433544630
+    },
+    {
+      "name": "validation/S05/c019/det/det_mask_rcnn.txt",
+      "size": 158935,
+      "comp_size": 55125,
+      "offset": 8433572324
+    },
+    {
+      "name": "validation/S05/c019/segm/segm_mask_rcnn.txt",
+      "size": 2026973,
+      "comp_size": 409040,
+      "offset": 8433640699
+    },
+    {
+      "name": "validation/S05/c019/calibration.txt",
+      "size": 230,
+      "comp_size": 161,
+      "offset": 8434049860
+    },
+    {
+      "name": "validation/S05/c019/gt/gt.txt",
+      "size": 25301,
+      "comp_size": 7239,
+      "offset": 8434050219
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 129389,
+      "comp_size": 43237,
+      "offset": 8434057652
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_tc_ssd512.txt",
+      "size": 29226,
+      "comp_size": 10053,
+      "offset": 8434101016
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 47506,
+      "comp_size": 16817,
+      "offset": 8434111190
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 49844,
+      "comp_size": 17590,
+      "offset": 8434128133
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 126544,
+      "comp_size": 37810,
+      "offset": 8434145850
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 87004,
+      "comp_size": 24024,
+      "offset": 8434183790
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_moana_yolo3.txt",
+      "size": 55960,
+      "comp_size": 20936,
+      "offset": 8434207938
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_moana_ssd512.txt",
+      "size": 55925,
+      "comp_size": 20819,
+      "offset": 8434228997
+    },
+    {
+      "name": "validation/S05/c019/mtsc/mtsc_tc_yolo3.txt",
+      "size": 31159,
+      "comp_size": 10815,
+      "offset": 8434249940
+    },
+    {
+      "name": "validation/S05/c025/det/det_yolo3.txt",
+      "size": 1829059,
+      "comp_size": 625963,
+      "offset": 9002984934
+    },
+    {
+      "name": "validation/S05/c025/det/det_ssd512.txt",
+      "size": 482600,
+      "comp_size": 169529,
+      "offset": 9003611012
+    },
+    {
+      "name": "validation/S05/c025/det/det_mask_rcnn.txt",
+      "size": 6361938,
+      "comp_size": 2163118,
+      "offset": 9003780657
+    },
+    {
+      "name": "validation/S05/c025/segm/segm_mask_rcnn.txt",
+      "size": 31688010,
+      "comp_size": 10123509,
+      "offset": 9005959302
+    },
+    {
+      "name": "validation/S05/c025/calibration.txt",
+      "size": 228,
+      "comp_size": 159,
+      "offset": 9016082932
+    },
+    {
+      "name": "validation/S05/c025/gt/gt.txt",
+      "size": 213695,
+      "comp_size": 53000,
+      "offset": 9016083289
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 3351570,
+      "comp_size": 1104016,
+      "offset": 9016136483
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_tc_ssd512.txt",
+      "size": 328771,
+      "comp_size": 99023,
+      "offset": 9017240626
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 1615390,
+      "comp_size": 488888,
+      "offset": 9017339770
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 364743,
+      "comp_size": 114991,
+      "offset": 9017828784
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 4973310,
+      "comp_size": 1474543,
+      "offset": 9017943902
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 3212990,
+      "comp_size": 855231,
+      "offset": 9019418575
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_moana_yolo3.txt",
+      "size": 1862283,
+      "comp_size": 600487,
+      "offset": 9020273930
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_moana_ssd512.txt",
+      "size": 446052,
+      "comp_size": 149910,
+      "offset": 9020874540
+    },
+    {
+      "name": "validation/S05/c025/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1420278,
+      "comp_size": 417257,
+      "offset": 9021024574
+    },
+    {
+      "name": "validation/S05/c034/calibration.txt",
+      "size": 227,
+      "comp_size": 158,
+      "offset": 9729862611
+    },
+    {
+      "name": "validation/S05/c034/det/det_yolo3.txt",
+      "size": 2857073,
+      "comp_size": 993964,
+      "offset": 9729862968
+    },
+    {
+      "name": "validation/S05/c034/det/det_ssd512.txt",
+      "size": 4444259,
+      "comp_size": 1519459,
+      "offset": 9730857047
+    },
+    {
+      "name": "validation/S05/c034/det/det_mask_rcnn.txt",
+      "size": 6226379,
+      "comp_size": 2124543,
+      "offset": 9732376622
+    },
+    {
+      "name": "validation/S05/c034/segm/segm_mask_rcnn.txt",
+      "size": 42722543,
+      "comp_size": 12874217,
+      "offset": 9734501371
+    },
+    {
+      "name": "validation/S05/c034/gt/gt.txt",
+      "size": 548518,
+      "comp_size": 143693,
+      "offset": 9747375794
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 3518127,
+      "comp_size": 1175359,
+      "offset": 9747519681
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_tc_ssd512.txt",
+      "size": 3084044,
+      "comp_size": 857413,
+      "offset": 9748695167
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 2465310,
+      "comp_size": 755170,
+      "offset": 9749552701
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 3525005,
+      "comp_size": 1050941,
+      "offset": 9750307997
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 4582788,
+      "comp_size": 1375122,
+      "offset": 9751359065
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 3359009,
+      "comp_size": 922778,
+      "offset": 9752734317
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_moana_yolo3.txt",
+      "size": 2710675,
+      "comp_size": 909238,
+      "offset": 9753657219
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_moana_ssd512.txt",
+      "size": 3277912,
+      "comp_size": 1089818,
+      "offset": 9754566580
+    },
+    {
+      "name": "validation/S05/c034/mtsc/mtsc_tc_yolo3.txt",
+      "size": 2469354,
+      "comp_size": 713987,
+      "offset": 9755656522
+    },
+    {
+      "name": "validation/S05/c035/calibration.txt",
+      "size": 535,
+      "comp_size": 243,
+      "offset": 10118726814
+    },
+    {
+      "name": "validation/S05/c035/det/det_yolo3.txt",
+      "size": 1508571,
+      "comp_size": 524194,
+      "offset": 10118727256
+    },
+    {
+      "name": "validation/S05/c035/det/det_ssd512.txt",
+      "size": 814429,
+      "comp_size": 288761,
+      "offset": 10119251565
+    },
+    {
+      "name": "validation/S05/c035/det/det_mask_rcnn.txt",
+      "size": 2254563,
+      "comp_size": 768899,
+      "offset": 10119540442
+    },
+    {
+      "name": "validation/S05/c035/segm/segm_mask_rcnn.txt",
+      "size": 14003090,
+      "comp_size": 3817525,
+      "offset": 10120309547
+    },
+    {
+      "name": "validation/S05/c035/gt/gt.txt",
+      "size": 494708,
+      "comp_size": 128631,
+      "offset": 10124127278
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1767142,
+      "comp_size": 584995,
+      "offset": 10124256103
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_tc_ssd512.txt",
+      "size": 605484,
+      "comp_size": 193339,
+      "offset": 10124841225
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 1294250,
+      "comp_size": 396241,
+      "offset": 10125034685
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 628877,
+      "comp_size": 200328,
+      "offset": 10125431052
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 1715797,
+      "comp_size": 516015,
+      "offset": 10125631507
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 1519014,
+      "comp_size": 407352,
+      "offset": 10126147652
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_moana_yolo3.txt",
+      "size": 1453358,
+      "comp_size": 484436,
+      "offset": 10126555128
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_moana_ssd512.txt",
+      "size": 720629,
+      "comp_size": 248504,
+      "offset": 10127039687
+    },
+    {
+      "name": "validation/S05/c035/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1273567,
+      "comp_size": 370602,
+      "offset": 10127288315
+    },
+    {
+      "name": "validation/S05/c016/det/det_yolo3.txt",
+      "size": 782745,
+      "comp_size": 277856,
+      "offset": 10572409653
+    },
+    {
+      "name": "validation/S05/c016/det/det_ssd512.txt",
+      "size": 871491,
+      "comp_size": 306639,
+      "offset": 10572687624
+    },
+    {
+      "name": "validation/S05/c016/det/det_mask_rcnn.txt",
+      "size": 1463876,
+      "comp_size": 511192,
+      "offset": 10572994379
+    },
+    {
+      "name": "validation/S05/c016/segm/segm_mask_rcnn.txt",
+      "size": 13139823,
+      "comp_size": 4043565,
+      "offset": 10573521157
+    },
+    {
+      "name": "validation/S05/c016/calibration.txt",
+      "size": 233,
+      "comp_size": 164,
+      "offset": 10577564843
+    },
+    {
+      "name": "validation/S05/c016/gt/gt.txt",
+      "size": 400318,
+      "comp_size": 104542,
+      "offset": 10577565205
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1040571,
+      "comp_size": 356622,
+      "offset": 10577669941
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_tc_ssd512.txt",
+      "size": 582203,
+      "comp_size": 189432,
+      "offset": 10578026690
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 662255,
+      "comp_size": 212735,
+      "offset": 10578216243
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 642725,
+      "comp_size": 207485,
+      "offset": 10578429104
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 997699,
+      "comp_size": 314786,
+      "offset": 10578636716
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 825858,
+      "comp_size": 263509,
+      "offset": 10578951632
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_moana_yolo3.txt",
+      "size": 745082,
+      "comp_size": 256916,
+      "offset": 10579215265
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_moana_ssd512.txt",
+      "size": 717509,
+      "comp_size": 247997,
+      "offset": 10579472304
+    },
+    {
+      "name": "validation/S05/c016/mtsc/mtsc_tc_yolo3.txt",
+      "size": 645673,
+      "comp_size": 208464,
+      "offset": 10579720425
+    },
+    {
+      "name": "validation/S05/c033/calibration.txt",
+      "size": 234,
+      "comp_size": 159,
+      "offset": 11158947292
+    },
+    {
+      "name": "validation/S05/c033/det/det_yolo3.txt",
+      "size": 2707335,
+      "comp_size": 938074,
+      "offset": 11158947650
+    },
+    {
+      "name": "validation/S05/c033/det/det_ssd512.txt",
+      "size": 3604008,
+      "comp_size": 1230981,
+      "offset": 11159885839
+    },
+    {
+      "name": "validation/S05/c033/det/det_mask_rcnn.txt",
+      "size": 4348135,
+      "comp_size": 1497117,
+      "offset": 11161116936
+    },
+    {
+      "name": "validation/S05/c033/segm/segm_mask_rcnn.txt",
+      "size": 41198820,
+      "comp_size": 12536422,
+      "offset": 11162614259
+    },
+    {
+      "name": "validation/S05/c033/gt/gt.txt",
+      "size": 883493,
+      "comp_size": 220428,
+      "offset": 11175150887
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 2780616,
+      "comp_size": 945889,
+      "offset": 11175371509
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_tc_ssd512.txt",
+      "size": 2168025,
+      "comp_size": 670486,
+      "offset": 11176317525
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 2308168,
+      "comp_size": 714492,
+      "offset": 11176988132
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 2565384,
+      "comp_size": 790975,
+      "offset": 11177702750
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 2993479,
+      "comp_size": 924090,
+      "offset": 11178493852
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 2728648,
+      "comp_size": 834473,
+      "offset": 11179418072
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_moana_yolo3.txt",
+      "size": 2520895,
+      "comp_size": 852125,
+      "offset": 11180252669
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_moana_ssd512.txt",
+      "size": 2415463,
+      "comp_size": 814239,
+      "offset": 11181104917
+    },
+    {
+      "name": "validation/S05/c033/mtsc/mtsc_tc_yolo3.txt",
+      "size": 2265190,
+      "comp_size": 693984,
+      "offset": 11181919280
+    },
+    {
+      "name": "validation/S05/c026/det/det_yolo3.txt",
+      "size": 3466352,
+      "comp_size": 1180858,
+      "offset": 11888504071
+    },
+    {
+      "name": "validation/S05/c026/det/det_ssd512.txt",
+      "size": 3559657,
+      "comp_size": 1214907,
+      "offset": 11889685044
+    },
+    {
+      "name": "validation/S05/c026/det/det_mask_rcnn.txt",
+      "size": 5478408,
+      "comp_size": 1868888,
+      "offset": 11890900067
+    },
+    {
+      "name": "validation/S05/c026/segm/segm_mask_rcnn.txt",
+      "size": 39105432,
+      "comp_size": 12216021,
+      "offset": 11892783509
+    },
+    {
+      "name": "validation/S05/c026/calibration.txt",
+      "size": 233,
+      "comp_size": 164,
+      "offset": 11904999651
+    },
+    {
+      "name": "validation/S05/c026/gt/gt.txt",
+      "size": 485821,
+      "comp_size": 118371,
+      "offset": 11905000013
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 3287029,
+      "comp_size": 1083979,
+      "offset": 11905118578
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_tc_ssd512.txt",
+      "size": 2565208,
+      "comp_size": 663231,
+      "offset": 11906202684
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 2983803,
+      "comp_size": 895647,
+      "offset": 11906866036
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 2973110,
+      "comp_size": 884126,
+      "offset": 11907761809
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 3838121,
+      "comp_size": 1147299,
+      "offset": 11908646062
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 3324360,
+      "comp_size": 841758,
+      "offset": 11909793491
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_moana_yolo3.txt",
+      "size": 3239505,
+      "comp_size": 1065595,
+      "offset": 11910635373
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_moana_ssd512.txt",
+      "size": 2872967,
+      "comp_size": 946391,
+      "offset": 11911701091
+    },
+    {
+      "name": "validation/S05/c026/mtsc/mtsc_tc_yolo3.txt",
+      "size": 2959037,
+      "comp_size": 772071,
+      "offset": 11912647606
+    },
+    {
+      "name": "validation/S05/c017/calibration.txt",
+      "size": 229,
+      "comp_size": 161,
+      "offset": 12487402718
+    },
+    {
+      "name": "validation/S05/c017/det/det_yolo3.txt",
+      "size": 663946,
+      "comp_size": 229687,
+      "offset": 12487403078
+    },
+    {
+      "name": "validation/S05/c017/det/det_ssd512.txt",
+      "size": 1546864,
+      "comp_size": 515641,
+      "offset": 12487632880
+    },
+    {
+      "name": "validation/S05/c017/det/det_mask_rcnn.txt",
+      "size": 2561805,
+      "comp_size": 868837,
+      "offset": 12488148637
+    },
+    {
+      "name": "validation/S05/c017/segm/segm_mask_rcnn.txt",
+      "size": 16891495,
+      "comp_size": 4797535,
+      "offset": 12489017680
+    },
+    {
+      "name": "validation/S05/c017/gt/gt.txt",
+      "size": 222658,
+      "comp_size": 59405,
+      "offset": 12493815421
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1760718,
+      "comp_size": 576602,
+      "offset": 12493875020
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_tc_ssd512.txt",
+      "size": 982675,
+      "comp_size": 236824,
+      "offset": 12494451749
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 557733,
+      "comp_size": 171415,
+      "offset": 12494688694
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 1008826,
+      "comp_size": 296369,
+      "offset": 12494860235
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 1850962,
+      "comp_size": 540997,
+      "offset": 12495156731
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 1624418,
+      "comp_size": 393540,
+      "offset": 12495697858
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_moana_yolo3.txt",
+      "size": 622934,
+      "comp_size": 210421,
+      "offset": 12496091522
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_moana_ssd512.txt",
+      "size": 1134661,
+      "comp_size": 368125,
+      "offset": 12496302066
+    },
+    {
+      "name": "validation/S05/c017/mtsc/mtsc_tc_yolo3.txt",
+      "size": 538455,
+      "comp_size": 159108,
+      "offset": 12496670315
+    },
+    {
+      "name": "validation/S05/c010/calibration.txt",
+      "size": 231,
+      "comp_size": 163,
+      "offset": 12990644171
+    },
+    {
+      "name": "validation/S05/c010/det/det_yolo3.txt",
+      "size": 1638068,
+      "comp_size": 554346,
+      "offset": 12990644533
+    },
+    {
+      "name": "validation/S05/c010/det/det_ssd512.txt",
+      "size": 1397912,
+      "comp_size": 470016,
+      "offset": 12991198994
+    },
+    {
+      "name": "validation/S05/c010/det/det_mask_rcnn.txt",
+      "size": 2689410,
+      "comp_size": 892540,
+      "offset": 12991669126
+    },
+    {
+      "name": "validation/S05/c010/segm/segm_mask_rcnn.txt",
+      "size": 14816727,
+      "comp_size": 3900241,
+      "offset": 12992561872
+    },
+    {
+      "name": "validation/S05/c010/gt/gt.txt",
+      "size": 149373,
+      "comp_size": 35786,
+      "offset": 12996462319
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1848241,
+      "comp_size": 591134,
+      "offset": 12996498299
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_tc_ssd512.txt",
+      "size": 1055461,
+      "comp_size": 276212,
+      "offset": 12997089560
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 1381048,
+      "comp_size": 408718,
+      "offset": 12997365893
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 1102582,
+      "comp_size": 323226,
+      "offset": 12997774737
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 1802258,
+      "comp_size": 519259,
+      "offset": 12998098090
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 1731373,
+      "comp_size": 397642,
+      "offset": 12998617479
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_moana_yolo3.txt",
+      "size": 1391049,
+      "comp_size": 453517,
+      "offset": 12999015245
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_moana_ssd512.txt",
+      "size": 1162786,
+      "comp_size": 377050,
+      "offset": 12999468885
+    },
+    {
+      "name": "validation/S05/c010/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1365568,
+      "comp_size": 366708,
+      "offset": 12999846059
+    },
+    {
+      "name": "validation/S05/c023/det/det_yolo3.txt",
+      "size": 1585166,
+      "comp_size": 546002,
+      "offset": 14055294158
+    },
+    {
+      "name": "validation/S05/c023/det/det_ssd512.txt",
+      "size": 1801307,
+      "comp_size": 606956,
+      "offset": 14055840275
+    },
+    {
+      "name": "validation/S05/c023/det/det_mask_rcnn.txt",
+      "size": 3197765,
+      "comp_size": 1085259,
+      "offset": 14056447347
+    },
+    {
+      "name": "validation/S05/c023/segm/segm_mask_rcnn.txt",
+      "size": 16701947,
+      "comp_size": 4934630,
+      "offset": 14057555579
+    },
+    {
+      "name": "validation/S05/c023/calibration.txt",
+      "size": 231,
+      "comp_size": 158,
+      "offset": 14062490330
+    },
+    {
+      "name": "validation/S05/c023/gt/gt.txt",
+      "size": 154777,
+      "comp_size": 43480,
+      "offset": 14062490686
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 1876953,
+      "comp_size": 619170,
+      "offset": 14062534360
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_tc_ssd512.txt",
+      "size": 1369536,
+      "comp_size": 380198,
+      "offset": 14063153657
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 1377228,
+      "comp_size": 413747,
+      "offset": 14063533976
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 1521415,
+      "comp_size": 446922,
+      "offset": 14063947849
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 2558779,
+      "comp_size": 750666,
+      "offset": 14064394898
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 1769247,
+      "comp_size": 502377,
+      "offset": 14065145694
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_moana_yolo3.txt",
+      "size": 1386133,
+      "comp_size": 458663,
+      "offset": 14065648195
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_moana_ssd512.txt",
+      "size": 1167122,
+      "comp_size": 385224,
+      "offset": 14066106981
+    },
+    {
+      "name": "validation/S05/c023/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1394670,
+      "comp_size": 395452,
+      "offset": 14066492329
+    },
+    {
+      "name": "validation/S05/c021/det/det_yolo3.txt",
+      "size": 1938843,
+      "comp_size": 662063,
+      "offset": 14521265432
+    },
+    {
+      "name": "validation/S05/c021/det/det_ssd512.txt",
+      "size": 3070485,
+      "comp_size": 1040671,
+      "offset": 14521927610
+    },
+    {
+      "name": "validation/S05/c021/det/det_mask_rcnn.txt",
+      "size": 4247968,
+      "comp_size": 1428186,
+      "offset": 14522968397
+    },
+    {
+      "name": "validation/S05/c021/segm/segm_mask_rcnn.txt",
+      "size": 30980935,
+      "comp_size": 8900415,
+      "offset": 14524407077
+    },
+    {
+      "name": "validation/S05/c021/calibration.txt",
+      "size": 231,
+      "comp_size": 163,
+      "offset": 14533307613
+    },
+    {
+      "name": "validation/S05/c021/gt/gt.txt",
+      "size": 214146,
+      "comp_size": 55613,
+      "offset": 14533307974
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 2069107,
+      "comp_size": 679959,
+      "offset": 14533363781
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_tc_ssd512.txt",
+      "size": 2058371,
+      "comp_size": 518736,
+      "offset": 14534043867
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 1656179,
+      "comp_size": 495003,
+      "offset": 14534562724
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 2237984,
+      "comp_size": 662373,
+      "offset": 14535057853
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 2926696,
+      "comp_size": 855217,
+      "offset": 14535720353
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 2521305,
+      "comp_size": 621251,
+      "offset": 14536575700
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_moana_yolo3.txt",
+      "size": 1616224,
+      "comp_size": 533588,
+      "offset": 14537197075
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_moana_ssd512.txt",
+      "size": 1849966,
+      "comp_size": 609137,
+      "offset": 14537730786
+    },
+    {
+      "name": "validation/S05/c021/mtsc/mtsc_tc_yolo3.txt",
+      "size": 1693125,
+      "comp_size": 456341,
+      "offset": 14538340047
+    },
+    {
+      "name": "validation/S05/c024/det/det_yolo3.txt",
+      "size": 1068949,
+      "comp_size": 356549,
+      "offset": 15431454068
+    },
+    {
+      "name": "validation/S05/c024/det/det_ssd512.txt",
+      "size": 980471,
+      "comp_size": 319742,
+      "offset": 15431810732
+    },
+    {
+      "name": "validation/S05/c024/det/det_mask_rcnn.txt",
+      "size": 1439018,
+      "comp_size": 473808,
+      "offset": 15432130590
+    },
+    {
+      "name": "validation/S05/c024/segm/segm_mask_rcnn.txt",
+      "size": 8843643,
+      "comp_size": 2044773,
+      "offset": 15432616054
+    },
+    {
+      "name": "validation/S05/c024/calibration.txt",
+      "size": 231,
+      "comp_size": 161,
+      "offset": 15434660948
+    },
+    {
+      "name": "validation/S05/c024/gt/gt.txt",
+      "size": 32415,
+      "comp_size": 9286,
+      "offset": 15434661307
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 927231,
+      "comp_size": 292122,
+      "offset": 15434670787
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_tc_ssd512.txt",
+      "size": 763400,
+      "comp_size": 118891,
+      "offset": 15434963036
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 918209,
+      "comp_size": 262958,
+      "offset": 15435082048
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 814915,
+      "comp_size": 230245,
+      "offset": 15435345132
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 936928,
+      "comp_size": 261420,
+      "offset": 15435575504
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 827856,
+      "comp_size": 147420,
+      "offset": 15435837054
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_moana_yolo3.txt",
+      "size": 991083,
+      "comp_size": 314502,
+      "offset": 15435984598
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_moana_ssd512.txt",
+      "size": 743531,
+      "comp_size": 237980,
+      "offset": 15436299223
+    },
+    {
+      "name": "validation/S05/c024/mtsc/mtsc_tc_yolo3.txt",
+      "size": 846965,
+      "comp_size": 180541,
+      "offset": 15436537327
+    },
+    {
+      "name": "validation/S05/c020/det/det_yolo3.txt",
+      "size": 2658135,
+      "comp_size": 892068,
+      "offset": 16062836475
+    },
+    {
+      "name": "validation/S05/c020/det/det_ssd512.txt",
+      "size": 2882786,
+      "comp_size": 957440,
+      "offset": 16063728658
+    },
+    {
+      "name": "validation/S05/c020/det/det_mask_rcnn.txt",
+      "size": 5132039,
+      "comp_size": 1712206,
+      "offset": 16064686214
+    },
+    {
+      "name": "validation/S05/c020/segm/segm_mask_rcnn.txt",
+      "size": 27754913,
+      "comp_size": 7150102,
+      "offset": 16066417403
+    },
+    {
+      "name": "validation/S05/c020/calibration.txt",
+      "size": 228,
+      "comp_size": 160,
+      "offset": 16073567626
+    },
+    {
+      "name": "validation/S05/c020/gt/gt.txt",
+      "size": 86550,
+      "comp_size": 24815,
+      "offset": 16073567984
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 2904384,
+      "comp_size": 933685,
+      "offset": 16073592993
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_tc_ssd512.txt",
+      "size": 1911659,
+      "comp_size": 412519,
+      "offset": 16074526805
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 2280577,
+      "comp_size": 656539,
+      "offset": 16074939445
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 2072969,
+      "comp_size": 589489,
+      "offset": 16075596110
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 4049082,
+      "comp_size": 1162563,
+      "offset": 16076185726
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 2977044,
+      "comp_size": 684347,
+      "offset": 16077348419
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_moana_yolo3.txt",
+      "size": 2504036,
+      "comp_size": 803883,
+      "offset": 16078032890
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_moana_ssd512.txt",
+      "size": 2075900,
+      "comp_size": 663948,
+      "offset": 16078836896
+    },
+    {
+      "name": "validation/S05/c020/mtsc/mtsc_tc_yolo3.txt",
+      "size": 2340942,
+      "comp_size": 551116,
+      "offset": 16079500968
+    },
+    {
+      "name": "validation/S05/c029/det/det_yolo3.txt",
+      "size": 4134944,
+      "comp_size": 1415580,
+      "offset": 16881901267
+    },
+    {
+      "name": "validation/S05/c029/det/det_ssd512.txt",
+      "size": 3864238,
+      "comp_size": 1327059,
+      "offset": 16883316962
+    },
+    {
+      "name": "validation/S05/c029/det/det_mask_rcnn.txt",
+      "size": 7458929,
+      "comp_size": 2536393,
+      "offset": 16884644137
+    },
+    {
+      "name": "validation/S05/c029/segm/segm_mask_rcnn.txt",
+      "size": 46799504,
+      "comp_size": 14864049,
+      "offset": 16887191888
+    },
+    {
+      "name": "validation/S05/c029/calibration.txt",
+      "size": 232,
+      "comp_size": 162,
+      "offset": 16902056058
+    },
+    {
+      "name": "validation/S05/c029/gt/gt.txt",
+      "size": 469949,
+      "comp_size": 117543,
+      "offset": 16902056418
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_moana_mask_rcnn.txt",
+      "size": 3928121,
+      "comp_size": 1305639,
+      "offset": 16902174155
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_tc_ssd512.txt",
+      "size": 2701213,
+      "comp_size": 794167,
+      "offset": 16903479921
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_deepsort_yolo3.txt",
+      "size": 3581542,
+      "comp_size": 1077890,
+      "offset": 16904274209
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_deepsort_ssd512.txt",
+      "size": 3027468,
+      "comp_size": 916593,
+      "offset": 16905352225
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_deepsort_mask_rcnn.txt",
+      "size": 5615382,
+      "comp_size": 1679339,
+      "offset": 16906268945
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_tc_mask_rcnn.txt",
+      "size": 4023052,
+      "comp_size": 1176899,
+      "offset": 16907948414
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_moana_yolo3.txt",
+      "size": 3769158,
+      "comp_size": 1247941,
+      "offset": 16909125437
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_moana_ssd512.txt",
+      "size": 3011812,
+      "comp_size": 1003679,
+      "offset": 16910373501
+    },
+    {
+      "name": "validation/S05/c029/mtsc/mtsc_tc_yolo3.txt",
+      "size": 3545696,
+      "comp_size": 990896,
+      "offset": 16911377304
+    }
+  ]
+}

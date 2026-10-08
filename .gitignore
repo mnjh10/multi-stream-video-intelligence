@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and testing
+.pytest_cache/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and secrets
+.env
+*.env
+*.log
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model weight binaries
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bin
+
+# ==============================================================================
+# Large Generated Media Datasets (~8.0 GB total)
+# Excluded from Git history due to size; reproducible via pipeline or shared out-of-band:
+# ==============================================================================
+
+# 1. Raw CityFlowV2 videos (~1.81 GB)
+data/videos/
+
+# 2. Sampled source frame JPEGs (~5.50 GB across 7,287 files)
+# Note: Metadata (data/frames/frame_index.jsonl, sampling_manifest.json) remains tracked
+data/frames/**/*.jpg
+data/frames/*.jpg
+
+# 3. Extracted object crop JPEGs (~651.75 MB across 61,039 files)
+# Note: Observations metadata (data/observations/observations.jsonl) remains tracked
+data/crops/
