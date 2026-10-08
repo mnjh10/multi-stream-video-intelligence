@@ -38,6 +38,7 @@ class RetrievalPipeline:
         self,
         query: str,
         top_k: int = 5,
+        filters: dict[str, Any] | None = None,
     ) -> list[dict]:
         """
         Search indexed observations and return ranked candidates.
@@ -45,13 +46,15 @@ class RetrievalPipeline:
 
         parsed_query = self.query_parser.parse(query)
 
-        filters = self._build_filters(
+        active_filters = self._build_filters(
             parsed_query
         )
+        if filters:
+            active_filters.update(filters)
 
         candidates = self.retrieval_engine.search(
             query=query,
-            filters=filters,
+            filters=active_filters,
             top_k=top_k,
         )
 

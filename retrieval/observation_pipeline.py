@@ -70,6 +70,7 @@ class ObservationRetrievalPipeline:
         query: str,
         top_k: int = 5,
         candidate_pool_size: int | None = None,
+        filters: dict | None = None,
     ) -> list[RetrievalResult]:
         """
         Search indexed observations and return temporal
@@ -92,6 +93,7 @@ class ObservationRetrievalPipeline:
         candidates = self.retrieval_pipeline.search(
             query=query,
             top_k=pool_size,
+            filters=filters,
         )
 
         events = self.event_builder.build_events(
