@@ -1,812 +1,244 @@
-# ARGUS
+# ARGUS — Conversational Multi-Camera Video Intelligence
 
-## Conversational Multi-Camera Video Intelligence
-
-ARGUS is a multi-camera video intelligence system that allows users to search recorded surveillance footage using natural-language queries.
-
-Instead of manually reviewing hours of CCTV footage, a user can ask questions such as:
-
-> "Find the red car near the main gate."
-
-> "Find the person carrying a backpack."
-
-> "Where did the same vehicle appear next?"
-
-ARGUS processes multiple recorded camera streams, indexes visual events, retrieves relevant evidence, and returns the camera, timestamp, and supporting visual evidence.
-
-The project is being developed as a hackathon prototype with an emphasis on **grounded retrieval, temporal localization, persistent semantic memory, and explainable evidence**.
+**Track:** HNX26EPS05 — Multi-Stream Video Intelligence with Conversational Query  
+**Status:** Person 1 (CV Pipeline) × Person 2 (Semantic Retrieval Engine) **FULLY INTEGRATED** (168 / 168 tests passing)  
+**Primary Branches:** `main` (integrated), `cv-pipeline` (CV & integration)
 
 ---
 
-## Problem
+## 1. Overview
 
-Traditional CCTV systems require users to manually inspect individual camera feeds and search through large amounts of recorded footage.
+**ARGUS** is an explainable, open-vocabulary, temporally indexed multi-camera video intelligence system that allows operators to search recorded surveillance footage using natural-language queries.
 
-ARGUS aims to provide a conversational interface where users can describe what they are looking for in natural language.
+Instead of manually reviewing hours of disjointed CCTV video streams, users query ARGUS conversationally:
 
-The system should be able to answer questions involving:
+> *"Find the white car near camera 3 turning right."*  
+> *"Find the red truck in the north intersection."*  
+> *"Where did this vehicle appear next?"*
 
-- Objects
-- Visual attributes
-- Cameras
-- Locations
-- Time ranges
-- Temporal events
-- Cross-camera appearances
-- References to previously identified objects
-- Persistent semantic locations
+ARGUS processes multi-camera video streams, tracks objects with camera-local identifiers, extracts safe object crops, indexes visual appearances using OpenCLIP embeddings into FAISS, and dynamically groups search candidates into temporal events with grounded visual evidence.
 
-For example:
+---
+
+## 2. End-to-End System Pipeline
 
 ```text
-User:
-"Find the person carrying a backpack near the entrance."
-
-ARGUS:
-Camera: CAM-01
-Timestamp: 02:31
-Evidence: [frame / video clip]
-```
-
----
-
-# Core Idea
-
-The fundamental design principle is:
-
-> **The language model interprets the user's intent; the retrieval system finds the evidence.**
-
-ARGUS should not rely on an LLM to simply describe video and generate an answer.
-
-Instead, the system creates a searchable representation of the visual data and grounds the final answer in actual observations from the recorded footage.
-
----
-
-# Architecture
-
-The current architecture is:
-
-```text
-                    RECORDED VIDEOS
-                           │
-                           ▼
-                  Video Ingestion
-                           │
-                           ▼
-                    Frame Sampling
-                           │
-                           ▼
-                     YOLO11
-                  Object Detection
-                           │
-                           ▼
-                 Object Observations
-                           │
-                    ┌──────┴──────┐
-                    │             │
-                    ▼             ▼
-              Object Crops    Metadata
-                    │             │
-                    ▼             ▼
-                OpenCLIP      PostgreSQL
-                    │
-                    ▼
-             Visual Embeddings
-                    │
-                    ▼
-                   FAISS
-                    │
-                    │
-Natural Language ──► Query Parser
-                    │
-                    ▼
-             Structured Query
-                    │
-                    ▼
-             Candidate Retrieval
-                    │
-                    ▼
-             Query-Aware Ranking
-                    │
-                    ▼
-              Temporal Events
-                    │
-                    ▼
-            Camera + Timestamp
-                    │
-                    ▼
-             Evidence Generation
-                    │
-                    ▼
-                  Backend
-                    │
-                    ▼
-                 Frontend
+[Recorded CityFlowV2 Multi-Camera Streams (cam_01 .. cam_11)]
+                        │
+                        ▼ (Person 1 CV Pipeline — Stages 0–8)
+           [Sampling @ 3.0 FPS Native Heterogeneous]
+                        │
+                        ▼
+             [YOLO11 Object Detection]
+                        │ (Ultralytics YOLO11x, conf=0.25)
+                        ▼
+           [ByteTrack Local ID Tracking]
+                        │ (933 camera-local trajectories)
+                        ▼
+       [Deterministic Safe JPEG Crops (61,039)]
+                        │ (Quality 95, safe coordinate clamping)
+                        ▼
+     [Authoritative observations.jsonl (61,039)]
+ ═══════════════════════╪══════════════════════════════════════════════════════
+                        │  (Integration Interface Boundary)
+                        ▼
+         [retrieval/observation_loader.py]
+                        │
+                        ▼
+         [retrieval/observation.py: Observation Dataclass]
+                        │
+                        ▼
+     [retrieval/observation_encoder.py + OpenCLIP ViT-B-32]
+                        │ (512-dim unit-normalized visual embeddings)
+                        ▼
+       [retrieval/vector_index.py: FAISS IndexFlatIP]
+                        │
+   Natural Language Query ──► [retrieval/query_parser.py]
+                        │            │
+                        │            ▼
+                        │      Structured Filters + Metadata
+                        ▼            │
+         [retrieval/search.py + ranking.py]
+                        │ (Semantic similarity + metadata score)
+                        ▼
+          [Candidate Pool Expansion (Phase 9 Fix)]
+                        │
+                        ▼
+         [retrieval/temporal.py: TemporalEventGrouper]
+                        │ (Gap-based temporal clustering per object/cam)
+                        ▼
+         [retrieval/result_builder.py: ResultBuilder]
+                        │
+                        ▼
+       [retrieval/retrieval_result.py: RetrievalResult Contract]
+                        │
+ ═══════════════════════╪══════════════════════════════════════════════════════
+                        │  (Person 3 Boundary)
+                        ▼
+         [FastAPI Endpoints + Visual Evidence + Memory]
 ```
 
 ---
 
-# Dataset
+## 3. Data Contracts & Schemas
 
-## Primary Dataset
-
-The project uses the:
-
-**AI City Challenge / CityFlowV2**
-
-multi-camera video dataset.
-
-CityFlowV2 provides real multi-camera surveillance footage and vehicle tracking information across multiple cameras and scenarios.
-
-We will use a selected subset rather than processing the entire dataset.
-
-### Target evaluation scale
-
-Approximately:
-
-- 8–12 cameras
-- Multiple scenarios
-- Longer temporal windows
-- Multiple object/event types where supported by the footage
-
-A smaller subset may be used during early development to reduce processing time.
-
----
-
-# Object Scope
-
-ARGUS is designed as a **generic object-oriented video intelligence system**, not a vehicle-only system.
-
-The detection pipeline should support whatever relevant everyday objects are present in the selected footage.
-
-Examples include:
-
-```text
-person
-car
-bicycle
-motorcycle
-bus
-truck
-backpack
-handbag
-suitcase
-umbrella
-bottle
-dog
-cat
-laptop
-cell phone
-...
-```
-
-The exact detectable categories depend on the selected footage and detector.
-
-The architecture therefore uses generic concepts such as:
-
-```text
-object_id
-object_type
-```
-
-rather than designing the system exclusively around vehicles.
-
----
-
-# Technology Stack
-
-## Programming
-
-```text
-Python 3.11
-```
-
-## Computer Vision
-
-```text
-PyTorch
-Ultralytics YOLO11
-OpenCV
-FFmpeg
-NumPy
-Pandas
-```
-
-## Vision-Language Retrieval
-
-```text
-OpenCLIP
-Transformers
-```
-
-## Vector Search
-
-```text
-FAISS
-```
-
-## Database
-
-```text
-PostgreSQL
-SQLAlchemy
-Alembic
-psycopg
-```
-
-## Backend
-
-```text
-FastAPI
-Uvicorn
-Pydantic
-python-dotenv
-```
-
-## Testing
-
-```text
-pytest
-```
-
-## Frontend
-
-```text
-React
-```
-
-Frontend development and backend/frontend integration will be handled later.
-
----
-
-# Repository Structure
-
-The three developers are working on independent branches.
-
-The internal folder structure of each branch may differ.
-
-The important requirement is that the shared interfaces and data contracts remain compatible.
-
-A possible overall structure is:
-
-```text
-ARGUS/
-│
-├── backend/
-│
-├── frontend/
-│
-├── data/
-│   ├── videos/
-│   ├── frames/
-│   ├── crops/
-│   └── embeddings/
-│
-├── models/
-│
-├── evaluation/
-│
-├── tests/
-│
-├── docs/
-│
-├── requirements.txt
-├── .env.example
-└── README.md
-```
-
-The exact structure will evolve as development progresses.
-
----
-
-# Git Branches
-
-The current development branches are:
-
-```text
-main
-│
-├── cv-pipeline
-├── retrieval-engine
-└── backend-foundation
-```
-
-### `main`
-
-Stable project branch.
-
-No experimental work should be performed directly on `main`.
-
-### `cv-pipeline`
-
-Owned by Person 1.
-
-Responsible for:
-
-- Video ingestion
-- Frame sampling
-- YOLO11 detection
-- Object observations
-- Object crops
-- Tracking where practical
-- Timestamp handling
-- CV preprocessing
-
-### `retrieval-engine`
-
-Owned by Person 2.
-
-Responsible for:
-
-- OpenCLIP embeddings
-- FAISS
-- Query understanding
-- Metadata filtering
-- Semantic retrieval
-- Ranking
-- Temporal retrieval
-- Baseline implementation
-- Evaluation
-
-### `backend-foundation`
-
-Owned by Person 3.
-
-Responsible for:
-
-- FastAPI
-- PostgreSQL
-- SQLAlchemy
-- Alembic
-- Persistent semantic memory
-- Backend schemas
-- Evidence generation utilities
-- Mock retrieval interfaces
-- Backend testing
-
-Backend/frontend integration will happen later.
-
----
-
-# Shared Data Contract
-
-The internal implementation of each branch may differ, but the interfaces between components must remain stable.
-
-## Person 1 → Person 2
-
-Person 1 produces observations approximately following:
+### Contract 1: Observation Record (Person 1 → Person 2)
+Stored in [`data/observations/observations.jsonl`](file:///D:/yasmin%20programs/PROJECT_FOLDER/HackNex/Hackathon/data/observations/observations.jsonl) (61,039 records):
 
 ```json
 {
   "observation_id": "obs_000001",
   "camera_id": "cam_01",
-  "timestamp": 142.37,
-  "frame_index": 4271,
-  "object_id": "obj_cam01_000034",
+  "timestamp": 0.0,
+  "frame_index": 0,
+  "object_id": "obj_cam01_000001",
   "object_type": "car",
-  "confidence": 0.94,
-  "bbox": [120, 80, 530, 310],
-  "frame_path": "data/frames/cam_01/frame_004271.jpg",
+  "confidence": 0.7413,
+  "bbox": [1097.04, 256.91, 1175.53, 322.65],
+  "frame_path": "data/frames/cam_01/frame_000000.jpg",
   "crop_path": "data/crops/cam_01/obs_000001.jpg",
-  "source_video": "data/videos/cam_01/video.mp4"
+  "source_video": "data/videos/cam_01/vdo.avi"
 }
 ```
 
-Required concepts:
-
-```text
-observation_id
-camera_id
-timestamp
-frame_index
-object_id
-object_type
-confidence
-bbox
-frame_path
-crop_path
-source_video
-```
+* **Timestamp Rule:** Source-video elapsed time in seconds (`frame_index / fps`). Synchronization offsets are strictly excluded.
+* **Prohibited Fields:** No downstream fields (`detection_id`, embeddings, etc.) exist in public records.
 
 ---
 
-# Person 2 → Person 3
-
-The retrieval engine eventually returns semantic results approximately following:
+### Contract 2: RetrievalResult (Person 2 → Person 3)
+Produced by [`ObservationRetrievalPipeline`](file:///D:/yasmin%20programs/PROJECT_FOLDER/HackNex/Hackathon/retrieval/observation_pipeline.py) for the backend:
 
 ```json
 {
-  "event_id": "evt_001",
-  "camera_id": "cam_01",
-  "object_id": "obj_cam01_000034",
-  "timestamp_start": 140.2,
-  "timestamp_end": 148.7,
-  "best_timestamp": 144.2,
-  "score": 0.91,
+  "event_id": "evt_000001",
+  "camera_id": "cam_02",
+  "object_id": "obj_cam02_000008",
+  "timestamp_start": 0.0,
+  "timestamp_end": 0.3,
+  "best_timestamp": 0.3,
+  "score": 0.39638,
   "object_type": "car",
-  "source_video": "cam_01/video.mp4"
+  "source_video": "data/videos/cam_02/vdo.avi"
 }
 ```
 
-The backend should depend on this conceptual result rather than FAISS-specific implementation details.
+* **`event_id`**: Structured event identifier (`evt_XXXXXX`).
+* **`best_timestamp`**: Moment of peak visual match within the temporal window `[timestamp_start, timestamp_end]`.
+* **`source_video`**: Video file path for visual evidence extraction and clip generation.
 
 ---
 
-# Backend → Frontend
+## 4. Quick Start & Usage
 
-The eventual API should expose information such as:
-
-```text
-query
-results
-camera
-timestamp
-event
-score
-evidence frame
-evidence clip
-memory/clarification state
+### Setup & Requirements
+```bash
+pip install torch torchvision open-clip-torch faiss-cpu ultralytics opencv-python pytest pillow
 ```
 
-The exact API contract will be finalized during integration.
+### Running Retrieval via Python
+```python
+from retrieval import (
+    CLIPEmbedder,
+    ObservationEncoder,
+    ObservationRetrievalPipeline,
+    RetrievalPipeline,
+    RetrievalEngine,
+    load_observations,
+)
+
+# 1. Initialize OpenCLIP ViT-B-32 model
+embedder = CLIPEmbedder()
+encoder = ObservationEncoder(embedder)
+
+# 2. Build retrieval pipeline
+pipeline = ObservationRetrievalPipeline(
+    encoder=encoder,
+    retrieval_pipeline=RetrievalPipeline(
+        retrieval_engine=RetrievalEngine(embedder=embedder, vector_index=None)
+    ),
+    max_gap=2.0,
+)
+
+# 3. Index observations
+observations = load_observations(limit=500)
+pipeline.index_observations(observations)
+
+# 4. Search with natural language
+results = pipeline.search("white car turning right", top_k=5)
+for r in results:
+    print(r.to_dict())
+```
 
 ---
 
-# Persistent Semantic Memory
+## 5. Verification & Testing
 
-ARGUS must support **clarify once, remember permanently**.
-
-Example:
-
-```text
-User:
-"Did someone enter through the main gate?"
-
-ARGUS:
-"Which camera should I associate with the main gate?"
-
-User:
-"Camera 1."
-```
-
-The system stores:
-
-```text
-main gate → cam_01
-```
-
-After restarting the application:
-
-```text
-User:
-"Did someone enter through the main gate?"
-```
-
-ARGUS should already understand:
-
-```text
-main gate → cam_01
-```
-
-without requesting clarification again.
-
-Persistent memory is stored in PostgreSQL.
-
----
-
-# Retrieval Approach
-
-ARGUS will compare two retrieval approaches.
-
-## Baseline
-
-```text
-Sampled frames
-      ↓
-OpenCLIP embeddings
-      ↓
-FAISS
-      ↓
-Top-K results
-```
-
-## Proposed approach
-
-```text
-Object detection
-      ↓
-Object-level crops
-      ↓
-OpenCLIP embeddings
-      ↓
-Metadata filtering
-      ↓
-FAISS
-      ↓
-Temporal aggregation
-      ↓
-Query-aware ranking
-```
-
-This allows us to evaluate whether object-aware and temporally structured retrieval improves natural-language video search.
-
----
-
-# Research Question
-
-The primary research question is:
-
-> **Does combining object-aware semantic indexing and temporal event aggregation improve natural-language multi-camera video retrieval compared with frame-level embedding retrieval?**
-
-The evaluation will be based on actual experimental results rather than predetermined claims.
-
----
-
-# Evaluation
-
-Planned metrics include:
-
-### Recall@1
-
-Whether the correct result is ranked first.
-
-### Recall@5
-
-Whether the correct result appears in the top five.
-
-### Mean Reciprocal Rank
-
-Measures ranking quality.
-
-### Camera Accuracy
-
-Whether the correct camera is identified.
-
-### Timestamp Error
-
-Difference between the returned timestamp and ground-truth event timestamp.
-
-### Query Latency
-
-Time required to retrieve results.
-
----
-
-# Query Categories
-
-The evaluation set will contain several classes of queries.
-
-### Object
-
-```text
-"Find the car near camera 2."
-```
-
-### Attribute
-
-```text
-"Find the white vehicle."
-```
-
-### Location
-
-```text
-"Find the person near the entrance."
-```
-
-### Temporal
-
-```text
-"Find what happened during the last minute."
-```
-
-### Combined
-
-```text
-"Find the white car near camera 3 during the last minute."
-```
-
-### Cross-Camera
-
-```text
-"Where did this vehicle appear next?"
-```
-
-### Referential
-
-```text
-"Where did it appear next?"
-```
-
-These queries will be grounded against actual video events.
-
----
-
-# Development Philosophy
-
-The project prioritizes:
-
-```text
-1. Retrieval accuracy
-2. Camera localization
-3. Timestamp localization
-4. Evidence generation
-5. Persistent memory
-6. Evaluation
-7. Stretch features
-```
-
-Do not sacrifice the core retrieval system for flashy features.
-
----
-
-# Stretch Goals
-
-If the MVP is stable, potential extensions include:
-
-- Cross-camera re-identification
-- Improved temporal reasoning
-- Live-stream simulation
-- Standing queries / alerts
-- Privacy-aware processing
-- More advanced visual attributes
-- More sophisticated event reasoning
-
-Stretch features must not destabilize the core system.
-
----
-
-# Scope Boundaries
-
-The project will NOT initially include:
-
-- Custom detector training
-- Custom VLM training
-- Full live CCTV infrastructure
-- Production-scale distributed systems
-- Kubernetes
-- Multiple competing vector databases
-- Multiple competing ML pipelines
-- Complex microservice architecture
-- Full production authentication/authorization
-
-The objective is a strong, demonstrable research prototype.
-
----
-
-# Development Workflow
-
-Each person works independently on their branch.
-
-Typical workflow:
+Run the full unified test suite (168 tests):
 
 ```bash
-git switch <your-branch>
-git pull
-
-# work
-
-git add .
-git commit -m "Meaningful commit message"
-git push
+python -m pytest tests/ -v
 ```
 
-Do not make architectural changes affecting another person's component without communicating them first.
+### Test Breakdown:
+* **Person 1 Regression Suite (150 tests):**
+  * Stage 1 Ingestion (14 tests)
+  * Stage 2 Dataset Discovery (6 tests)
+  * Stage 3 Frame Sampling (27 tests)
+  * Stage 4 YOLO11 Detection (22 tests)
+  * Stage 5 ByteTrack Tracking (24 tests)
+  * Stage 6 Observations & Crops (27 tests)
+  * Stage 7 Multi-Camera Audit (13 tests)
+  * Stage 8 Handoff Freeze (17 tests)
+* **Person 1 × Person 2 Integration Suite (18 tests):**
+  * Contract exactness & referential integrity
+  * OpenCLIP 512-dim unit-normalized visual embeddings
+  * FAISS persistence determinism & mapping invariants
+  * Query parser, structured filters, and hybrid ranking
+  * Temporal event grouping & candidate pool expansion
+  * Real end-to-end queries (unfiltered and camera-filtered)
+
+**Result:** `168 passed in 83.5s (100% pass rate)`.
 
 ---
 
-# Synchronization Rules
-
-The main coordination chat is the source of truth for:
-
-- Architecture
-- Shared schemas
-- API contracts
-- Model choices
-- Dataset decisions
-- Scope changes
-- Integration requirements
-- Breaking changes
-- Hackathon strategy
-
-Individual development chats are for implementation.
-
-If a change affects another component, report it in the main coordination channel.
-
----
-
-# Status Format
-
-Use the following format for development updates:
+## 6. Directory Structure
 
 ```text
-STATUS — PERSON X
-
-Completed:
--
-
-Currently working:
--
-
-Blocked:
--
-
-Files changed:
--
-
-Inputs required from:
--
-
-Outputs now available to:
--
-
-Interface/schema changes:
--
-
-Performance:
--
-
-Known issues:
--
-
-Next:
--
+├── backend/                  # Person 1 CV Pipeline
+│   └── cv/                   # Video ingestion, sampling, detection, tracking, crops
+├── retrieval/                # Person 2 Semantic Retrieval Engine
+│   ├── observation.py        # Observation dataclass
+│   ├── observation_loader.py # Streaming observation loader
+│   ├── observation_encoder.py# OpenCLIP crop image encoder
+│   ├── embeddings.py         # OpenCLIP ViT-B-32 embedder
+│   ├── vector_index.py       # FAISS IndexFlatIP wrapper
+│   ├── index_builder.py      # Observation index builder
+│   ├── index_storage.py      # FAISS binary + JSON metadata persistence
+│   ├── query_parser.py       # Natural-language query parser
+│   ├── ranking.py            # Hybrid semantic + metadata ranker
+│   ├── search.py             # Retrieval engine coordinator
+│   ├── temporal.py           # Temporal event grouper
+│   ├── event_builder.py      # Event builder
+│   ├── result_builder.py     # Result contract builder
+│   ├── retrieval_result.py   # RetrievalResult dataclass
+│   └── observation_pipeline.py # End-to-end ObservationRetrievalPipeline
+├── evaluation/               # Person 2 Evaluation Framework
+│   ├── evaluate.py           # Recall@k, MRR metrics
+│   ├── baseline.py           # Full-frame retrieval baseline
+│   └── ground_truth.py       # Ground truth schemas
+├── docs/                     # Specifications & Handoff Documents
+│   ├── person1_handoff.md    # Person 1 CV Handoff
+│   ├── person1_stage8_handoff.md # Person 1 Stage 8 Freeze
+│   └── person3_handoff.md    # Person 3 Backend & API Handoff
+├── tests/                    # Unified Automated Test Suite
+│   ├── test_p1_p2_integration.py # Person 1 × Person 2 integration tests (18 tests)
+│   └── test_stage*.py        # Person 1 regression tests (150 tests)
+└── data/                     # Authoritative Dataset Artifacts
+    ├── observations/         # observations.jsonl (61,039 records)
+    ├── crops/                # Object crops (61,039 JPEGs)
+    ├── frames/               # Sampled frames (7,287 JPEGs) & frame_index.jsonl
+    ├── tracks/               # tracks.jsonl (61,039 records)
+    ├── detections/           # detections.jsonl (68,906 records)
+    └── videos/               # 11 CityFlowV2 raw videos
 ```
-
-For breaking/shared changes:
-
-```text
-CHANGE NOTICE
-
-Component:
-
-Old:
-
-New:
-
-Reason:
-
-Affected:
-
-Action required:
-```
-
----
-
-# Current Development Phase
-
-The current phase is:
-
-**Independent component development.**
-
-The three branches are being developed independently while respecting the shared architecture and contracts.
-
-Integration will occur only after the component-level implementations are sufficiently stable.
-
-The eventual integration flow will be:
-
-```text
-cv-pipeline
-      +
-retrieval-engine
-      +
-backend-foundation
-      ↓
-integration
-      ↓
-Testing
-      ↓
-main
-```
-
----
-
-# Project Goal
-
-ARGUS should ultimately demonstrate:
-
-> **An explainable, open-vocabulary, temporally indexed multi-camera video retrieval system that converts natural-language queries into grounded camera, timestamp, and visual evidence while maintaining persistent semantic memory.**
-
-The goal is not simply to build a CCTV dashboard.
-
-The goal is to demonstrate a technically defensible approach to **conversational, grounded, multi-camera video intelligence**.
