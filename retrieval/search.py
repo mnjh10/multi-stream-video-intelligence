@@ -51,6 +51,7 @@ class RetrievalEngine:
         results = self.vector_index.search(
             query_embedding.numpy(),
             top_k=top_k,
+            filters=filters,
         )
 
         if filters:

@@ -41,10 +41,14 @@ class QueryParser:
         query_lower = query.lower()
 
         for object_type in OBJECT_TYPES:
-            if re.search(
-                rf"\b{re.escape(object_type)}\b",
-                query_lower,
-            ):
+            if object_type == "bus":
+                pattern = r"\bbus(?:es)?\b"
+            elif object_type == "person":
+                pattern = r"\b(?:person|people)\b"
+            else:
+                pattern = rf"\b{re.escape(object_type)}s?\b"
+
+            if re.search(pattern, query_lower):
                 return object_type
 
         return None
@@ -61,8 +65,11 @@ class QueryParser:
             "white",
             "black",
             "yellow",
+            "purple",
+            "orange",
             "gray",
             "grey",
+            "silver",
             "large",
             "small",
         ]
@@ -80,16 +87,39 @@ class QueryParser:
         """
         Extract camera references such as:
         'camera 3' -> 'cam_03'
-        'camera 12' -> 'cam_12'
+        'camera 05' -> 'cam_05'
+        'camera 5' -> 'cam_05'
+        'cam_05' -> 'cam_05'
+        'cam 05' -> 'cam_05'
+        'cam 5' -> 'cam_05'
+        'cam05' -> 'cam_05'
+        'camera five' -> 'cam_05'
         """
+        word_to_num = {
+            "one": 1,
+            "two": 2,
+            "three": 3,
+            "four": 4,
+            "five": 5,
+            "six": 6,
+            "seven": 7,
+            "eight": 8,
+            "nine": 9,
+            "ten": 10,
+            "eleven": 11,
+            "twelve": 12,
+        }
 
         match = re.search(
-            r"\bcamera\s+(\d+)\b",
+            r"\b(?:camera|cam)[_\s-]*(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\b",
             query.lower(),
         )
 
         if match:
-            return f"cam_{int(match.group(1)):02d}"
+            token = match.group(1)
+            num = int(token) if token.isdigit() else word_to_num.get(token)
+            if num is not None and 1 <= num <= 99:
+                return f"cam_{num:02d}"
 
         return None
 
@@ -99,7 +129,7 @@ class QueryParser:
         # Camera references are structured metadata,
         # not semantic locations.
         if re.search(
-            r"\bcamera\s+\d+\b",
+            r"\b(?:camera|cam)[_\s-]*(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\b",
             query_lower,
         ):
             return None

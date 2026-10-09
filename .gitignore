@@ -51,3 +51,20 @@ data/frames/*.jpg
 # 3. Extracted object crop JPEGs (~651.75 MB across 61,039 files)
 # Note: Observations metadata (data/observations/observations.jsonl) remains tracked
 data/crops/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Extracted evidence frames
+data/evidence/
+
+# FAISS vector index binaries and cache
+data/index/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+

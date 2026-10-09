@@ -35,10 +35,16 @@ class ResultBuilder:
                 object_id=event["object_id"],
                 timestamp_start=event["timestamp_start"],
                 timestamp_end=event["timestamp_end"],
-                best_timestamp=event["best_timestamp"],
+                best_timestamp=best_observation.get("timestamp", event["best_timestamp"]),
                 score=event["best_score"],
                 object_type=best_observation["object_type"],
                 source_video=best_observation["source_video"],
+                observation_id=best_observation.get("observation_id"),
+                frame_index=best_observation.get("frame_index"),
+                bbox=best_observation.get("bbox"),
+                crop_path=best_observation.get("crop_path"),
+                verification_status=event.get("verification_status", "visual_similarity"),
+                attribute_details=event.get("attribute_details"),
             )
 
             results.append(result)

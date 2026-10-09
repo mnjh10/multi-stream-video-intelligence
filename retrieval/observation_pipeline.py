@@ -1,3 +1,4 @@
+from retrieval.attribute_verifier import AttributeVerifier
 from retrieval.event_builder import EventBuilder
 from retrieval.index_builder import ObservationIndexBuilder
 from retrieval.observation import Observation
@@ -27,6 +28,8 @@ class ObservationRetrievalPipeline:
                 ↓
         Temporal event grouping
                 ↓
+        Attribute verification
+                ↓
         RetrievalResult
     """
 
@@ -48,6 +51,7 @@ class ObservationRetrievalPipeline:
         )
 
         self.result_builder = ResultBuilder()
+        self.attribute_verifier = AttributeVerifier()
 
     def index_observations(
         self,
@@ -70,33 +74,87 @@ class ObservationRetrievalPipeline:
         query: str,
         top_k: int = 5,
         candidate_pool_size: int | None = None,
+        filters: dict | None = None,
     ) -> list[RetrievalResult]:
         """
         Search indexed observations and return temporal
-        retrieval results.
-
-        To ensure high-quality temporal event grouping and return up to
-        `top_k` distinct events, an expanded pool of observation candidates
-        is retrieved before grouping into events and ranking.
+        retrieval results with attribute verification.
         """
 
         if top_k <= 0:
             raise ValueError("top_k must be greater than zero.")
 
-        pool_size = (
-            candidate_pool_size
-            if candidate_pool_size is not None
-            else max(top_k * 10, 50)
-        )
+        parsed_query = self.retrieval_pipeline.query_parser.parse(query)
+        requested_attributes = parsed_query.get("attributes", [])
+        color_attributes = [
+            a for a in requested_attributes
+            if a in self.attribute_verifier.supported_attributes()
+        ]
+
+        if color_attributes:
+            pool_size = (
+                candidate_pool_size
+                if candidate_pool_size is not None
+                else max(top_k * 25, 150)
+            )
+        else:
+            pool_size = (
+                candidate_pool_size
+                if candidate_pool_size is not None
+                else max(top_k * 10, 50)
+            )
 
         candidates = self.retrieval_pipeline.search(
             query=query,
             top_k=pool_size,
+            filters=filters,
         )
 
         events = self.event_builder.build_events(
             candidates
         )
+
+        if color_attributes:
+            verified_events = []
+            for event in events:
+                event_obs = event.get("observations", [])
+                if not event_obs:
+                    continue
+
+                all_attrs_verified = True
+                matched_details = {}
+                best_verified_obs = None
+                max_frac = -1.0
+
+                for attr in color_attributes:
+                    attr_verified = False
+                    for obs in event_obs:
+                        ver = self.attribute_verifier.verify_crop(obs.get("crop_path"), attr)
+                        if ver["verified"]:
+                            attr_verified = True
+                            if ver["fraction"] > max_frac:
+                                max_frac = ver["fraction"]
+                                best_verified_obs = obs
+                            matched_details[attr] = ver
+                            break
+                    if not attr_verified:
+                        all_attrs_verified = False
+                        break
+
+                if all_attrs_verified:
+                    event["verification_status"] = "attribute_verified"
+                    event["attribute_details"] = matched_details
+                    if best_verified_obs:
+                        # Ensure best observation chosen by ResultBuilder is the verified observation
+                        event["observations"] = [best_verified_obs] + [o for o in event_obs if o != best_verified_obs]
+                        event["best_timestamp"] = best_verified_obs.get("timestamp", event["best_timestamp"])
+                    verified_events.append(event)
+
+            events = verified_events
+        else:
+            for event in events:
+                event["verification_status"] = "visual_similarity"
+                event["attribute_details"] = None
 
         events.sort(
             key=lambda event: event.get("best_score", 0.0),
