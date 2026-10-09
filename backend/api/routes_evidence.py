@@ -16,6 +16,10 @@ def extract_evidence(request: EvidenceRequest):
             timestamp=request.timestamp,
             camera_id=request.camera_id,
             event_id=request.event_id,
+            object_id=request.object_id,
+            frame_index=request.frame_index,
+            bbox=request.bbox,
+            annotate=request.annotate,
             output_dir=request.output_dir,
         )
         return EvidenceResponse(**result)

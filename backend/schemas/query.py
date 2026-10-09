@@ -3,10 +3,20 @@ from datetime import datetime
 from pydantic import BaseModel, Field
 
 
+class QueryContext(BaseModel):
+    camera_id: str | None = None
+    object_id: str | None = None
+    timestamp: float | None = None
+    event_id: str | None = None
+    frame_index: int | None = None
+    bbox: list[float] | None = None
+
+
 class QueryRequest(BaseModel):
     query: str = Field(min_length=1)
     top_k: int = Field(default=5, ge=1)
     filters: dict | None = None
+    context: QueryContext | None = None
 
 
 class Evidence(BaseModel):
@@ -26,9 +36,18 @@ class QueryResult(BaseModel):
     object_id: str | None = None
     object_type: str | None = None
     evidence: Evidence | None = None
+    bbox: list[float] | None = None
+    frame_index: int | None = None
+    crop_path: str | None = None
+    observation_id: str | None = None
+    verification_status: str | None = None
+    attribute_details: dict | None = None
+    is_followup: bool = False
+    followup_relation: str | None = None
 
 
 class QueryResponse(BaseModel):
     query: str
     status: str
+    message: str | None = None
     results: list[QueryResult] = []

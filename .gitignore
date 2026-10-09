@@ -63,3 +63,8 @@ data/evidence/
 # FAISS vector index binaries and cache
 data/index/
 
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+

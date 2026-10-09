@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 import os
 from pathlib import Path
+import threading
 
 from retrieval.embeddings import CLIPEmbedder
 from retrieval.index_storage import IndexStorage
@@ -92,6 +93,7 @@ class RealRetrievalProvider(RetrievalProvider):
         self.observations_path = Path(
             observations_path or self.DEFAULT_OBSERVATIONS_PATH
         )
+        self._lock = threading.Lock()
 
         self._initialize_index(initial_observations_limit)
 
@@ -141,11 +143,12 @@ class RealRetrievalProvider(RetrievalProvider):
         if top_k <= 0:
             raise ValueError("top_k must be greater than zero.")
 
-        results = self.pipeline.search(
-            query=query.strip(),
-            top_k=top_k,
-            filters=filters,
-        )
+        with self._lock:
+            results = self.pipeline.search(
+                query=query.strip(),
+                top_k=top_k,
+                filters=filters,
+            )
 
         formatted_results = []
         for res in results:
@@ -160,6 +163,12 @@ class RealRetrievalProvider(RetrievalProvider):
                     "score": float(res.score),
                     "object_id": res.object_id,
                     "object_type": res.object_type,
+                    "observation_id": getattr(res, "observation_id", None),
+                    "frame_index": getattr(res, "frame_index", None),
+                    "bbox": getattr(res, "bbox", None),
+                    "crop_path": getattr(res, "crop_path", None),
+                    "verification_status": getattr(res, "verification_status", "visual_similarity"),
+                    "attribute_details": getattr(res, "attribute_details", None),
                     "evidence": {
                         "frame_path": None,
                         "clip_path": None,
